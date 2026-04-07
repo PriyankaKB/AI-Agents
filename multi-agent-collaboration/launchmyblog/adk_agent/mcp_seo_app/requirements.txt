@@ -1,0 +1,13 @@
+pandas
+numpy
+google-cloud-bigquery
+google-adk
+a2a-sdk
+google-genai
+beautifulsoup4
+lxml
+tldextract
+scikit-learn
+fastapi
+uvicorn
+requests

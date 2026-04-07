@@ -1,0 +1,13 @@
+pandas
+numpy
+google-cloud-bigquery
+google-adk
+a2a-sdk
+google-genai
+textblob
+matplotlib
+seaborn
+scikit-learn
+fastapi
+uvicorn
+requests

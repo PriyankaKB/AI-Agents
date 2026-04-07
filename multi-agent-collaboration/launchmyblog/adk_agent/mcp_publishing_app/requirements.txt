@@ -1,0 +1,12 @@
+pandas
+numpy
+google-cloud-bigquery
+google-adk
+a2a-sdk
+google-genai
+python-wordpress-xmlrpc
+markdown
+jinja2
+fastapi
+uvicorn
+requests
