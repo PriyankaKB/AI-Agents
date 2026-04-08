@@ -14,7 +14,11 @@ This scenario demonstrates an AI Agent's ability to orchestrate enterprise data 
 
 The agent autonomously queries BigQuery to find blogs and uses Google Maps to validate micro-location details. The demo relies below key datasets:
 
-1.  **mcp-news-data:** To identify the news content as per input given by user as per region, category like sports, entertainment, politics etc.
+1.  **mcp-drafting-data:** To identify the blog content as per input given by user.
+2.  **mcp-plagiarism-data:** To identify overlapping content for plagiarism.
+3.  **seo datasets:** To fix the seo, organize keywords and metatags etc.
+4.  **mcp-publishing-data:** To publish the final content on blogging platform and fetch the blog data and status of 
+5.  **mcp-feedback-data:** To analyze feedback from users and blog readers.
 
 
 ### Architecture Diagram
@@ -22,6 +26,9 @@ The agent autonomously queries BigQuery to find blogs and uses Google Maps to va
 ![Architecture Diagram](architecture_diagram.png)
 
 The diagram above illustrates the flow of information in this demo. The Agent, powered by Gemini 3 Pro Preview, orchestrates requests between the user and Google Cloud services. It uses a remote (Google hosted) MCP server to securely access BigQuery for mcp-news-data, and Google Maps APIs for real-world location analysis and validation.
+
+ a representation of your refined blogging pipeline:
+![alt text](multi-agent-workflow-1.png)
 
 ## Repository Structure
 
@@ -77,48 +84,6 @@ launchmynews/
 └── README.md                    # This documentation
 ```
 
- a trace diagram of your refined blogging pipeline with the new Plagiarism Checker Agent included:
- ┌───────────────┐
- │ Human Author  │
- │ (research,    │
- │ draft input)  │
- └───────┬───────┘
-         │
-         ▼
- ┌───────────────┐
- │ Drafting Agent│
- │ (structure,   │
- │ citations)    │
- └───────┬───────┘
-         │
-         ▼
- ┌───────────────────────┐
- │ Plagiarism Checker    │
- │ (alerts overlap,      │
- │ does not block)       │
- └───────┬───────────────┘
-         │
-         ▼
- ┌───────────────┐
- │ SEO Agent     │
- │ (keywords,    │
- │ meta tags)    │
- └───────┬───────┘
-         │
-         ▼
- ┌───────────────┐
- │ Publishing    │
- │ Agent         │
- │ (WordPress    │
- │ integration)  │
- └───────┬───────┘
-         │
-         ▼
- ┌───────────────┐
- │ Feedback Agent│
- │ (metrics,     │
- │ insights)     │
- └───────────────┘
 
 ## Prerequisites
 
