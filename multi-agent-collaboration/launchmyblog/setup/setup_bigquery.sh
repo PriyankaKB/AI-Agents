@@ -88,7 +88,7 @@ bq query --use_legacy_sql=false \
     timestamp STRING OPTIONS (description='timestamp of seo field'),
     meta_description STRING OPTIONS (description='meta_description of seo field '),
     keywords STRING OPTIONS (description='keywords of seo field'),
-    content STRING OPTIONS (description='content of seo field')
+    content STRING OPTIONS (description='content of seo field'),
 )
 OPTIONS(
     description='SEO dataset.'
