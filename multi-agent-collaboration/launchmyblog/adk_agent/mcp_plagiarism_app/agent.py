@@ -17,23 +17,21 @@ app = FastAPI()
 SEO_URL = os.getenv("SEO_AGENT_URL", "http://localhost:8002/check")
 
 seo_card = AgentCard(
-    {
-    "name": "seo-agent",
-    "description": "Agent that detect keywords and metadata for seo.",
-    "defaultInputModes": ["text/plain"],
-    "defaultOutputModes": ["application/json"],
-    "skills": [
-    {
-        "id": "seo-agent",
-        "name": "seo-agent",
-        "description": "Agent that detect keywords and metadata for seo.",
-        "tags": ["seo"]
-    }
+    name="seo-agent",
+    description="Agent that detects keywords and metadata for SEO.",
+    defaultInputModes=["text/plain"],
+    defaultOutputModes=["application/json"],
+    skills=[
+        {
+            "id": "seo-agent",
+            "name": "seo-agent",
+            "description": "Agent that detects keywords and metadata for SEO.",
+            "tags": ["seo"]
+        }
     ],
-    "url": SEO_URL,
-    "capabilities": {},
-    "version": "1.0.0"
-    }
+    url=SEO_URL,          # set via env var, e.g. http://localhost:8002/check or Cloud Run URL
+    capabilities={},      # can be empty if no special capabilities
+    version="1.0.0"
 )
 
 # Agents

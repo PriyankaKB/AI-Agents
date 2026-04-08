@@ -17,23 +17,21 @@ app = FastAPI()
 PLAGIARISM_URL = os.getenv("PLAGIARISM_AGENT_URL", "http://localhost:8001/check")
 
 plagiarism_card = AgentCard(
-    {
-    "name": "plagiarism-agent",
-    "description": "Checks drafts for plagiarism.",
-    "defaultInputModes": ["text/plain"],
-    "defaultOutputModes": ["application/json"],
-    "skills": [
-    {
-        "id": "plagiarism-agent",
-        "name": "plagiarism-agent",
-        "description": "Checks drafts for plagiarism.",
-        "tags": ["plagiarism"]
-    }
+    name="plagiarism-agent",
+    description="Checks drafts for plagiarism.",
+    defaultInputModes=["text/plain"],
+    defaultOutputModes=["application/json"],
+    skills=[
+        {
+            "id": "plagiarism-agent",
+            "name": "plagiarism-agent",
+            "description": "Checks drafts for plagiarism.",
+            "tags": ["plagiarism"]
+        }
     ],
-    "url": PLAGIARISM_URL,
-    "capabilities": {},
-    "version": "1.0.0"
-}
+    url=PLAGIARISM_URL,   # use env var for Cloud Run URL
+    capabilities={},      # can be empty if no special capabilities
+    version="1.0.0"
 )
 
 # Agents
