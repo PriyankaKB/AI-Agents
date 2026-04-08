@@ -2,15 +2,24 @@ import os
 import dotenv
 from mcp_drafting_app import tools
 from google.adk.agents import LlmAgent
+from google.adk import Agent
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-from a2a_sdk import Agent, Message
+from a2a.types import Message
+from google.adk.agents.remote_a2a_agent import RemoteA2aAgent
 
 dotenv.load_dotenv()
 
 PROJECT_ID = os.getenv('GOOGLE_CLOUD_PROJECT', 'project_not_set')
 
 app = FastAPI()
+
+# Agents
+plagiarism_agent = RemoteA2aAgent(
+    name="plagiarism-agent",
+    description="Agent that detect overlapping content and plagiarism.",
+)
+
 agent = Agent("drafting-agent")
 
 app.add_middleware(
@@ -35,7 +44,8 @@ bigquery_toolset = tools.get_bigquery_mcp_toolset()
 
 root_agent = LlmAgent(
     model='gemini-2.5-flash-lite',
-    name='root_agent',
+    name='drafting-agent',
+    description="Creates drafts for blog content.",
     instruction=f"""
                 Help the user answer questions by strategically combining insights from two sources:
                 
@@ -46,4 +56,5 @@ root_agent = LlmAgent(
                     Include a hyperlink to an interactive map in your response where appropriate.
             """,
     tools=[maps_toolset, bigquery_toolset]
+    sub_agents=[drafting-agent]
 )

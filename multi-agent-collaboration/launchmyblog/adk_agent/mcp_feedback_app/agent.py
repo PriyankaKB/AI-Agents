@@ -1,16 +1,20 @@
 import os
 import dotenv
-from mcp_feedback_app import tools
+from mcp_drafting_app import tools
 from google.adk.agents import LlmAgent
+from google.adk import Agent
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-from google-a2a_sdk import Agent, Message
+from a2a.types import Message
+from google.adk.agents.remote_a2a_agent import RemoteA2aAgent
 
 dotenv.load_dotenv()
 
 PROJECT_ID = os.getenv('GOOGLE_CLOUD_PROJECT', 'project_not_set')
 
 app = FastAPI()
+
+# Agents
 agent = Agent("feedback-agent")
 
 app.add_middleware(
@@ -51,4 +55,5 @@ root_agent = LlmAgent(
                     Include a hyperlink to an interactive map in your response where appropriate.
             """,
     tools=[maps_toolset, bigquery_toolset]
+    sub_agents=[feedback-agent]
 )

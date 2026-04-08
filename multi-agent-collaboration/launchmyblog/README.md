@@ -162,7 +162,7 @@ cd adk_agent/
 adk web --allow_origins 'regex:https://.*\.cloudshell\.dev'
 ```
 #### Install A2A SDK
-python3 -m pip install --upgrade google-adk a2a-sdk google-genai
+pip install --upgrade a2a-sdk google-genai
 
 ### 6. Chat with the Agent
 
