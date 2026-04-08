@@ -77,12 +77,12 @@ bq load --source_format=CSV --skip_leading_rows=1 --ignore_unknown_values=true -
 
 # 6. Create SEO data Tables
 echo "[6.1/8] Setting up Table:seo-django1..."
-bq load --source_format=NEWLINE_DELIMITED_JSON --skip_leading_rows=1 --ignore_unknown_values=true --replace \
+bq load --source_format=NEWLINE_DELIMITED_JSON --ignore_unknown_values=true --replace \
   --autodetect \
   "$PROJECT_ID:$DATASET_NAME.seo-django1" "$BUCKET_NAME/seo-django1.jl"
 
 echo "[6.2/8] Setting up Table:seo-django-logs..."
-bq load --source_format=NEWLINE_DELIMITED_JSON --skip_leading_rows=1 --ignore_unknown_values=true --replace \
+bq load --source_format=NEWLINE_DELIMITED_JSON --ignore_unknown_values=true --replace \
   --autodetect \
   "$PROJECT_ID:$DATASET_NAME.seo-django-logs" "$BUCKET_NAME/seo-django-logs.jl"
 
@@ -101,19 +101,21 @@ bq load --source_format=CSV --skip_leading_rows=1 --ignore_unknown_values=true -
 # 7. Create mcp_publishing_app Tables
 echo "[7/8] Setting up Table:mcp-publishing-data..."
 bq query --use_legacy_sql=false \
-"CREATE OR REPLACE TABLE \`$PROJECT_ID.$DATASET_NAME.mcp-plagiarism-data\` (
+"CREATE OR REPLACE TABLE \`$PROJECT_ID.$DATASET_NAME.mcp-publishing-data\` (
     id INT OPTIONS (description='id'),
     title STRING OPTIONS (description='title'),
     author STRING OPTIONS (description='author'),
     category STRING OPTIONS (description='category'),
     status STRING OPTIONS (description='status'),
-    scheduled_date DATE OPTIONS (description='scheduled_date'),
+    scheduled_date STRING OPTIONS (description='scheduled_date'),
     content STRING OPTIONS (description='content'),
 )
 OPTIONS(
     description='Publishing dataset.'
 );"
 
+bq load --source_format=CSV --skip_leading_rows=1 --ignore_unknown_values=true --replace \
+    "$PROJECT_ID:$DATASET_NAME.mcp-publishing-data" "$BUCKET_NAME/mcp-publishing-data.csv"
 
 # 8. Create mcp_feedback_app Tables
 echo "[8/8] Setting up Table:mcp-feedback-data..."
@@ -125,10 +127,10 @@ bq query --use_legacy_sql=false \
     post_title STRING OPTIONS (description='category'),
     rating INT OPTIONS (description='status'),
     comment STRING OPTIONS (description='scheduled_date'),
-    timestamp DATE OPTIONS (description='content'),
+    timestamp STRING OPTIONS (description='content'),
 )
 OPTIONS(
-    description='Publishing dataset.'
+    description='feedback dataset.'
 );"
 
 bq load --source_format=CSV --skip_leading_rows=1 --ignore_unknown_values=true --replace \

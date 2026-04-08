@@ -1,4 +1,4 @@
-url,title,viewport,charset,h1,h2,h3,h4,body_text,size,download_timeout,download_slot,download_latency,redirect_times,redirect_ttl,redirect_urls,redirect_reasons,depth,status,links_url,links_text,links_nofollow,img_src,img_alt,ip_address,crawl_time,resp_headers_server,resp_headers_content-type,resp_headers_content-language,resp_headers_x-frame-options,resp_headers_x-content-type-options,resp_headers_x-xss-protection,resp_headers_expires,resp_headers_cache-control,resp_headers_strict-transport-security,resp_headers_access-control-allow-origin,resp_headers_accept-ranges,resp_headers_date,resp_headers_via,resp_headers_age,resp_headers_x-served-by,resp_headers_x-cache,resp_headers_x-cache-hits,resp_headers_x-timer,resp_headers_vary,request_headers_accept,request_headers_accept-language,request_headers_user-agent,request_headers_accept-encoding,canonical,alt_href,alt_hreflang,request_headers_referer,resp_headers_set-cookie,resp_headers_last-modified,request_headers_cookie,resp_headers_etag,h5,resp_headers_x-robots-tag
+url,title,viewport,charset,h1,h2,h3,h4,body_text,size,download_timeout,download_slot,download_latency,redirect_times,redirect_ttl,redirect_urls,redirect_reasons,depth,status,links_url,links_text,links_nofollow,img_src,img_alt,ip_address,crawl_time,resp_headers_server,resp_headers_content-type,resp_headers_content-language,resp_headers_x-frame-options,resp_headers_x-content-type-options,resp_headers_x-xss-protection,resp_headers_expires,resp_headers_cache-control,resp_headers_strict-transport-security,resp_headers_access-control-allow-origin,resp_headers_accept-ranges,resp_headers_date,resp_headers_via,resp_headers_age,resp_headers_x-served-by,resp_headers_x-cache,resp_headers_x-cache-hits,resp_headers_x-timer,resp_headers_vary,request_headers_accept,request_headers_accept-language,request_headers_user-agent,request_headers_accept-encoding,canonical,alt_href,,,,,,,,resp_headers_x-robots-tag
 https://www.djangoproject.com/,The Web framework for perfectionists with deadlines | Django,"width=device-width, initial-scale=1",utf-8,Django@@Meet Django@@Stay in the loop@@Django Links,Support Django!@@Learn More@@Get Involved@@Follow Us@@Support Us,Latest news@@New to Django?@@The power of Django@@Get involved@@The Django Software Foundation,"
     @@
   @@
@@ -85,7 +85,7 @@ release series.
         Foundation  and individual contributors. Django is a
          registered
         trademark  of the Django Software Foundation.
-      ",17026,180,djangoproject.com,0.599493026733398,1.0,19.0,https://djangoproject.com,301,0,200,https://www.djangoproject.com/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/download/@@https://docs.djangoproject.com/@@https://www.djangoproject.com/weblog/@@https://www.djangoproject.com/community/@@https://github.com/django/django@@https://code.djangoproject.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/fundraising/@@https://www.djangoproject.com/start/@@https://www.djangoproject.com/start/overview/@@https://groups.google.com/group/django-users@@https://groups.google.com/group/django-developers@@https://docs.djangoproject.com/en/dev/internals/contributing/@@https://docs.djangoproject.com/en/dev/internals/mailing-lists/@@https://www.djangoproject.com/#top@@https://www.djangoproject.com/download/@@https://docs.djangoproject.com/@@https://www.djangoproject.com/fundraising/@@https://www.djangoproject.com/weblog/2020/nov/12/nominations-2020-malcolm-tredinnick-memorial-prize/@@https://www.djangoproject.com/weblog/2020/nov/02/bugfix-releases/@@https://www.djangoproject.com/weblog/@@https://docs.djangoproject.com/en/stable/intro/install/@@https://docs.djangoproject.com/en/stable/intro/tutorial01/@@https://www.djangoproject.com/start/@@https://docs.djangoproject.com/en/stable/topics/db/models/@@https://docs.djangoproject.com/en/stable/intro/tutorial02/@@https://docs.djangoproject.com/en/stable/topics/templates/@@https://docs.djangoproject.com/en/stable/topics/i18n/@@https://www.djangoproject.com/start/overview/@@https://code.djangoproject.com/@@https://www.djangoproject.com/community/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/foundation/donate/@@https://www.djangoproject.com/contact/foundation/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/start/@@https://docs.djangoproject.com/en/dev/internals/organization/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/conduct/@@https://www.djangoproject.com/diversity/@@https://www.djangoproject.com/community/@@https://docs.djangoproject.com/en/dev/internals/contributing/@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/@@https://docs.djangoproject.com/en/dev/internals/security/#reporting-security-issues@@https://github.com/django@@https://twitter.com/djangoproject@@https://www.djangoproject.com/rss/weblog/@@https://groups.google.com/forum/#!forum/django-users@@https://www.djangoproject.com/fundraising/@@https://django.threadless.com/@@https://www.djangoproject.com/foundation/donate/#amazon-smile@@https://www.djangoproject.com/foundation/donate/#benevity-giving@@https://www.rackspace.com@@https://www.threespot.com@@http://andrevv.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/trademarks/,"Django@@Overview@@Download@@Documentation@@News@@Community@@Code@@Issues@@About@@♥ Donate@@Get started with Django@@Learn more about Django@@Using Django@@Contributing to Django@@
+      ",17026,180,djangoproject.com,0.599493027,1,19,https://djangoproject.com,301,0,200,https://www.djangoproject.com/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/download/@@https://docs.djangoproject.com/@@https://www.djangoproject.com/weblog/@@https://www.djangoproject.com/community/@@https://github.com/django/django@@https://code.djangoproject.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/fundraising/@@https://www.djangoproject.com/start/@@https://www.djangoproject.com/start/overview/@@https://groups.google.com/group/django-users@@https://groups.google.com/group/django-developers@@https://docs.djangoproject.com/en/dev/internals/contributing/@@https://docs.djangoproject.com/en/dev/internals/mailing-lists/@@https://www.djangoproject.com/#top@@https://www.djangoproject.com/download/@@https://docs.djangoproject.com/@@https://www.djangoproject.com/fundraising/@@https://www.djangoproject.com/weblog/2020/nov/12/nominations-2020-malcolm-tredinnick-memorial-prize/@@https://www.djangoproject.com/weblog/2020/nov/02/bugfix-releases/@@https://www.djangoproject.com/weblog/@@https://docs.djangoproject.com/en/stable/intro/install/@@https://docs.djangoproject.com/en/stable/intro/tutorial01/@@https://www.djangoproject.com/start/@@https://docs.djangoproject.com/en/stable/topics/db/models/@@https://docs.djangoproject.com/en/stable/intro/tutorial02/@@https://docs.djangoproject.com/en/stable/topics/templates/@@https://docs.djangoproject.com/en/stable/topics/i18n/@@https://www.djangoproject.com/start/overview/@@https://code.djangoproject.com/@@https://www.djangoproject.com/community/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/foundation/donate/@@https://www.djangoproject.com/contact/foundation/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/start/@@https://docs.djangoproject.com/en/dev/internals/organization/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/conduct/@@https://www.djangoproject.com/diversity/@@https://www.djangoproject.com/community/@@https://docs.djangoproject.com/en/dev/internals/contributing/@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/@@https://docs.djangoproject.com/en/dev/internals/security/#reporting-security-issues@@https://github.com/django@@https://twitter.com/djangoproject@@https://www.djangoproject.com/rss/weblog/@@https://groups.google.com/forum/#!forum/django-users@@https://www.djangoproject.com/fundraising/@@https://django.threadless.com/@@https://www.djangoproject.com/foundation/donate/#amazon-smile@@https://www.djangoproject.com/foundation/donate/#benevity-giving@@https://www.rackspace.com@@https://www.threespot.com@@http://andrevv.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/trademarks/,"Django@@Overview@@Download@@Documentation@@News@@Community@@Code@@Issues@@About@@♥ Donate@@Get started with Django@@Learn more about Django@@Using Django@@Contributing to Django@@
       Contributing to Django@@
     mailing list documentation@@ Back to Top@@
           Download latest release: 3.1.3
@@ -94,8 +94,8 @@ release series.
           support Django development. Donate today!
         @@Nominations for 2020 Malcolm Tredinnick Memorial Prize@@Django bugfix releases issued: 3.1.3, 3.0.11, and 2.2.17@@More news@@Installation guide@@Write your first Django app@@Getting started with Django@@Object-relational mapper@@Automatic admin interface@@Robust template system@@Quick internationalization@@Explore more features@@Ticket system@@Inside the Django community@@About the Foundation@@Support Django@@Contact the Django Software Foundation@@More about the DSF@@About Django@@Getting Started with Django@@Team Organization@@Django Software Foundation@@Code of Conduct@@Diversity Statement@@Join a Group@@Contribute to Django@@Submit a Bug@@Report a Security Issue@@GitHub@@Twitter@@News RSS@@Django Users Mailing List@@Sponsor Django@@Official merchandise store@@Amazon Smile@@Benevity Workplace Giving Program@@Rackspace@@Threespot@@@@ Django Software
         Foundation@@registered
-        trademark",False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False,https://static.djangoproject.com/img/fundraising-heart.cd6bb84ffd33.svg,Support Django!,199.232.18.217,2020-11-15 12:24:33,nginx,text/html; charset=utf-8,en,SAMEORIGIN,nosniff,1; mode=block,"Sun, 15 Nov 2020 12:27:47 GMT",max-age=300,max-age=31536000; includeSubDomains; preload,https://code.djangoproject.com,bytes,"Sun, 15 Nov 2020 12:24:33 GMT",1.1 varnish,0.0,cache-vie21629-VIE,MISS,0,"S1605443073.134884,VS0,VE564","Accept-Language, Accept-Encoding","text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",en,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36","gzip, deflate",,,,,,,,,,
-https://docs.djangoproject.com/en/3.1/intro/install/,Quick install guide | Django documentation | Django,"width=device-width, initial-scale=1",utf-8,Quick install guide@@Additional Information@@Django Links,Install Python@@Set up a database@@Install Django@@Verifying@@That’s it!@@Support Django!@@Contents@@Browse@@You are here:@@Getting help@@Download:@@Learn More@@Get Involved@@Follow Us@@Support Us,,,"The web framework for perfectionists with deadlines. 
+        trademark",False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False,https://static.djangoproject.com/img/fundraising-heart.cd6bb84ffd33.svg,Support Django!,199.232.18.217,15-11-2020 12:24,nginx,text/html; charset=utf-8,en,SAMEORIGIN,nosniff,1; mode=block,"Sun, 15 Nov 2020 12:27:47 GMT",max-age=300,max-age=31536000; includeSubDomains; preload,https://code.djangoproject.com,bytes,"Sun, 15 Nov 2020 12:24:33 GMT",1.1 varnish,0,cache-vie21629-VIE,MISS,0,"S1605443073.134884,VS0,VE564","Accept-Language, Accept-Encoding","text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",en,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36","gzip, deflate",NA,NA,,,,,,,,
+https://docs.djangoproject.com/en/3.1/intro/install/,Quick install guide | Django documentation | Django,"width=device-width, initial-scale=1",utf-8,Quick install guide@@Additional Information@@Django Links,Install Python@@Set up a database@@Install Django@@Verifying@@That’s it!@@Support Django!@@Contents@@Browse@@You are here:@@Getting help@@Download:@@Learn More@@Get Involved@@Follow Us@@Support Us,NA,NA,"The web framework for perfectionists with deadlines. 
            Overview 
          
            Download 
@@ -262,7 +262,7 @@ Then at the Python prompt, try to import Django: You may have another version of
         Foundation  and individual contributors. Django is a
          registered
         trademark  of the Django Software Foundation.
-      ",23821,180,docs.djangoproject.com,0.035208940505981,1.0,19.0,https://docs.djangoproject.com/en/stable/intro/install/,302,1,200,https://www.djangoproject.com/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/download/@@https://docs.djangoproject.com/@@https://www.djangoproject.com/weblog/@@https://www.djangoproject.com/community/@@https://github.com/django/django@@https://code.djangoproject.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/fundraising/@@https://docs.djangoproject.com/en/3.1/@@https://docs.djangoproject.com/en/3.1/faq/help/@@https://docs.djangoproject.com/el/3.1/intro/install/@@https://docs.djangoproject.com/es/3.1/intro/install/@@https://docs.djangoproject.com/fr/3.1/intro/install/@@https://docs.djangoproject.com/id/3.1/intro/install/@@https://docs.djangoproject.com/ja/3.1/intro/install/@@https://docs.djangoproject.com/ko/3.1/intro/install/@@https://docs.djangoproject.com/pl/3.1/intro/install/@@https://docs.djangoproject.com/pt-br/3.1/intro/install/@@https://docs.djangoproject.com/zh-hans/3.1/intro/install/@@https://docs.djangoproject.com/en/1.8/intro/install/@@https://docs.djangoproject.com/en/1.10/intro/install/@@https://docs.djangoproject.com/en/1.11/intro/install/@@https://docs.djangoproject.com/en/2.0/intro/install/@@https://docs.djangoproject.com/en/2.1/intro/install/@@https://docs.djangoproject.com/en/2.2/intro/install/@@https://docs.djangoproject.com/en/3.0/intro/install/@@https://docs.djangoproject.com/en/dev/intro/install/@@https://docs.djangoproject.com/en/3.1/intro/install/#quick-install-guide@@https://docs.djangoproject.com/en/3.1/topics/install/@@https://docs.djangoproject.com/en/3.1/intro/install/#install-python@@https://docs.djangoproject.com/en/3.1/faq/install/#faq-python-version-support@@https://sqlite.org/@@https://www.python.org/downloads/@@https://docs.djangoproject.com/en/3.1/intro/install/#set-up-a-database@@https://docs.djangoproject.com/en/3.1/topics/install/#database-installation@@https://docs.djangoproject.com/en/3.1/intro/install/#install-django@@https://docs.djangoproject.com/en/3.1/topics/install/#installing-official-release@@https://docs.djangoproject.com/en/3.1/topics/install/#installing-distribution-package@@https://docs.djangoproject.com/en/3.1/topics/install/#installing-development-version@@https://docs.djangoproject.com/en/3.1/intro/install/#verifying@@https://docs.djangoproject.com/en/3.1/intro/install/#that-s-it@@https://docs.djangoproject.com/en/3.1/intro/tutorial01/@@https://docs.djangoproject.com/en/3.1/intro/overview/@@https://docs.djangoproject.com/en/3.1/intro/tutorial01/@@https://docs.djangoproject.com/en/3.1/intro/install/#top@@https://www.djangoproject.com/fundraising/@@https://docs.djangoproject.com/en/3.1/intro/install/@@https://docs.djangoproject.com/en/3.1/intro/install/#install-python@@https://docs.djangoproject.com/en/3.1/intro/install/#set-up-a-database@@https://docs.djangoproject.com/en/3.1/intro/install/#install-django@@https://docs.djangoproject.com/en/3.1/intro/install/#verifying@@https://docs.djangoproject.com/en/3.1/intro/install/#that-s-it@@https://docs.djangoproject.com/en/3.1/intro/overview/@@https://docs.djangoproject.com/en/3.1/intro/tutorial01/@@https://docs.djangoproject.com/en/3.1/contents/@@https://docs.djangoproject.com/en/3.1/genindex/@@https://docs.djangoproject.com/en/3.1/py-modindex/@@https://docs.djangoproject.com/en/3.1/@@https://docs.djangoproject.com/en/3.1/intro/@@https://docs.djangoproject.com/en/3.1/faq/@@https://docs.djangoproject.com/en/stable/genindex/@@https://docs.djangoproject.com/en/stable/py-modindex/@@https://docs.djangoproject.com/en/stable/contents/@@https://groups.google.com/group/django-users/@@https://code.djangoproject.com/@@https://media.readthedocs.org/epub/django/3.1.x/django.epub@@https://readthedocs.org/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/start/@@https://docs.djangoproject.com/en/dev/internals/organization/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/conduct/@@https://www.djangoproject.com/diversity/@@https://www.djangoproject.com/community/@@https://docs.djangoproject.com/en/dev/internals/contributing/@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/@@https://docs.djangoproject.com/en/dev/internals/security/#reporting-security-issues@@https://github.com/django@@https://twitter.com/djangoproject@@https://www.djangoproject.com/rss/weblog/@@https://groups.google.com/forum/#!forum/django-users@@https://www.djangoproject.com/fundraising/@@https://django.threadless.com/@@https://docs.djangoproject.com/foundation/donate/#amazon-smile@@https://docs.djangoproject.com/foundation/donate/#benevity-giving@@https://www.rackspace.com@@https://www.threespot.com@@http://andrevv.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/trademarks/,"Django@@Overview@@Download@@Documentation@@News@@Community@@Code@@Issues@@About@@♥ Donate@@Documentation@@
+      ",23821,180,docs.djangoproject.com,0.035208941,1,19,https://docs.djangoproject.com/en/stable/intro/install/,302,1,200,https://www.djangoproject.com/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/download/@@https://docs.djangoproject.com/@@https://www.djangoproject.com/weblog/@@https://www.djangoproject.com/community/@@https://github.com/django/django@@https://code.djangoproject.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/fundraising/@@https://docs.djangoproject.com/en/3.1/@@https://docs.djangoproject.com/en/3.1/faq/help/@@https://docs.djangoproject.com/el/3.1/intro/install/@@https://docs.djangoproject.com/es/3.1/intro/install/@@https://docs.djangoproject.com/fr/3.1/intro/install/@@https://docs.djangoproject.com/id/3.1/intro/install/@@https://docs.djangoproject.com/ja/3.1/intro/install/@@https://docs.djangoproject.com/ko/3.1/intro/install/@@https://docs.djangoproject.com/pl/3.1/intro/install/@@https://docs.djangoproject.com/pt-br/3.1/intro/install/@@https://docs.djangoproject.com/zh-hans/3.1/intro/install/@@https://docs.djangoproject.com/en/1.8/intro/install/@@https://docs.djangoproject.com/en/1.10/intro/install/@@https://docs.djangoproject.com/en/1.11/intro/install/@@https://docs.djangoproject.com/en/2.0/intro/install/@@https://docs.djangoproject.com/en/2.1/intro/install/@@https://docs.djangoproject.com/en/2.2/intro/install/@@https://docs.djangoproject.com/en/3.0/intro/install/@@https://docs.djangoproject.com/en/dev/intro/install/@@https://docs.djangoproject.com/en/3.1/intro/install/#quick-install-guide@@https://docs.djangoproject.com/en/3.1/topics/install/@@https://docs.djangoproject.com/en/3.1/intro/install/#install-python@@https://docs.djangoproject.com/en/3.1/faq/install/#faq-python-version-support@@https://sqlite.org/@@https://www.python.org/downloads/@@https://docs.djangoproject.com/en/3.1/intro/install/#set-up-a-database@@https://docs.djangoproject.com/en/3.1/topics/install/#database-installation@@https://docs.djangoproject.com/en/3.1/intro/install/#install-django@@https://docs.djangoproject.com/en/3.1/topics/install/#installing-official-release@@https://docs.djangoproject.com/en/3.1/topics/install/#installing-distribution-package@@https://docs.djangoproject.com/en/3.1/topics/install/#installing-development-version@@https://docs.djangoproject.com/en/3.1/intro/install/#verifying@@https://docs.djangoproject.com/en/3.1/intro/install/#that-s-it@@https://docs.djangoproject.com/en/3.1/intro/tutorial01/@@https://docs.djangoproject.com/en/3.1/intro/overview/@@https://docs.djangoproject.com/en/3.1/intro/tutorial01/@@https://docs.djangoproject.com/en/3.1/intro/install/#top@@https://www.djangoproject.com/fundraising/@@https://docs.djangoproject.com/en/3.1/intro/install/@@https://docs.djangoproject.com/en/3.1/intro/install/#install-python@@https://docs.djangoproject.com/en/3.1/intro/install/#set-up-a-database@@https://docs.djangoproject.com/en/3.1/intro/install/#install-django@@https://docs.djangoproject.com/en/3.1/intro/install/#verifying@@https://docs.djangoproject.com/en/3.1/intro/install/#that-s-it@@https://docs.djangoproject.com/en/3.1/intro/overview/@@https://docs.djangoproject.com/en/3.1/intro/tutorial01/@@https://docs.djangoproject.com/en/3.1/contents/@@https://docs.djangoproject.com/en/3.1/genindex/@@https://docs.djangoproject.com/en/3.1/py-modindex/@@https://docs.djangoproject.com/en/3.1/@@https://docs.djangoproject.com/en/3.1/intro/@@https://docs.djangoproject.com/en/3.1/faq/@@https://docs.djangoproject.com/en/stable/genindex/@@https://docs.djangoproject.com/en/stable/py-modindex/@@https://docs.djangoproject.com/en/stable/contents/@@https://groups.google.com/group/django-users/@@https://code.djangoproject.com/@@https://media.readthedocs.org/epub/django/3.1.x/django.epub@@https://readthedocs.org/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/start/@@https://docs.djangoproject.com/en/dev/internals/organization/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/conduct/@@https://www.djangoproject.com/diversity/@@https://www.djangoproject.com/community/@@https://docs.djangoproject.com/en/dev/internals/contributing/@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/@@https://docs.djangoproject.com/en/dev/internals/security/#reporting-security-issues@@https://github.com/django@@https://twitter.com/djangoproject@@https://www.djangoproject.com/rss/weblog/@@https://groups.google.com/forum/#!forum/django-users@@https://www.djangoproject.com/fundraising/@@https://django.threadless.com/@@https://docs.djangoproject.com/foundation/donate/#amazon-smile@@https://docs.djangoproject.com/foundation/donate/#benevity-giving@@https://www.rackspace.com@@https://www.threespot.com@@http://andrevv.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/trademarks/,"Django@@Overview@@Download@@Documentation@@News@@Community@@Code@@Issues@@About@@♥ Donate@@Documentation@@
         Getting Help
       @@el@@es@@fr@@id@@ja@@ko@@pl@@pt-br@@zh-hans@@1.8@@1.10@@1.11@@2.0@@2.1@@2.2@@3.0@@dev@@¶@@complete installation guide@@¶@@What Python version can I use with Django?@@SQLite@@https://www.python.org/downloads/@@¶@@database installation information@@¶@@Install an official release@@provided by your operating system
 distribution@@Install the latest development version@@¶@@¶@@move onto the tutorial@@ Django at a glance@@Writing your first Django app, part 1 @@ Back to Top@@
@@ -270,8 +270,8 @@ distribution@@Install the latest development version@@¶@@¶@@move onto the tuto
           support Django development. Donate today!
         @@Quick install guide@@Install Python@@Set up a database@@Install Django@@Verifying@@That’s it!@@Django at a glance@@Writing your first Django app, part 1@@Table of contents@@General Index@@Python Module Index@@Django 3.1 documentation@@Getting started@@FAQ@@Index@@Module Index@@Table of Contents@@django-users mailing list@@Ticket tracker@@ePub@@Read the Docs@@About Django@@Getting Started with Django@@Team Organization@@Django Software Foundation@@Code of Conduct@@Diversity Statement@@Join a Group@@Contribute to Django@@Submit a Bug@@Report a Security Issue@@GitHub@@Twitter@@News RSS@@Django Users Mailing List@@Sponsor Django@@Official merchandise store@@Amazon Smile@@Benevity Workplace Giving Program@@Rackspace@@Threespot@@@@ Django Software
         Foundation@@registered
-        trademark",False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False,https://static.djangoproject.com/img/fundraising-heart.cd6bb84ffd33.svg,Support Django!,199.232.18.217,2020-11-15 12:24:34,nginx,text/html; charset=utf-8,,SAMEORIGIN,nosniff,1; mode=block,"Sat, 14 Nov 2020 12:16:16 GMT",max-age=300,max-age=31536000; includeSubDomains; preload,https://code.djangoproject.com,bytes,"Sun, 15 Nov 2020 12:24:34 GMT",1.1 varnish,87198.0,cache-vie21632-VIE,HIT,1,"S1605443074.250706,VS0,VE1",Accept-Encoding,"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",en,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36","gzip, deflate",https://docs.djangoproject.com/en/3.1/intro/install/,https://docs.djangoproject.com/el/3.1/intro/install/@@https://docs.djangoproject.com/en/3.1/intro/install/@@https://docs.djangoproject.com/es/3.1/intro/install/@@https://docs.djangoproject.com/fr/3.1/intro/install/@@https://docs.djangoproject.com/id/3.1/intro/install/@@https://docs.djangoproject.com/ja/3.1/intro/install/@@https://docs.djangoproject.com/ko/3.1/intro/install/@@https://docs.djangoproject.com/pl/3.1/intro/install/@@https://docs.djangoproject.com/pt-br/3.1/intro/install/@@https://docs.djangoproject.com/zh-hans/3.1/intro/install/,el@@en@@es@@fr@@id@@ja@@ko@@pl@@pt-br@@zh-hans,https://www.djangoproject.com/,,,,,,
-https://www.djangoproject.com/weblog/2020/nov/02/bugfix-releases/,"Django bugfix releases issued: 3.1.3, 3.0.11, and 2.2.17 | Weblog | Django","width=device-width, initial-scale=1",utf-8,Additional Information@@Django Links,"Django bugfix releases issued: 3.1.3, 3.0.11, and 2.2.17@@Support Django!@@Upcoming Events@@ @@ @@ @@ @@ @@ @@ @@ @@ @@ @@ @@ @@ @@ @@ @@ @@Learn More@@Get Involved@@Follow Us@@Support Us",,,"The web framework for perfectionists with deadlines. 
+        trademark",False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False,https://static.djangoproject.com/img/fundraising-heart.cd6bb84ffd33.svg,Support Django!,199.232.18.217,15-11-2020 12:24,nginx,text/html; charset=utf-8,,SAMEORIGIN,nosniff,1; mode=block,"Sat, 14 Nov 2020 12:16:16 GMT",max-age=300,max-age=31536000; includeSubDomains; preload,https://code.djangoproject.com,bytes,"Sun, 15 Nov 2020 12:24:34 GMT",1.1 varnish,87198,cache-vie21632-VIE,HIT,1,"S1605443074.250706,VS0,VE1",Accept-Encoding,"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",en,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36","gzip, deflate",https://docs.djangoproject.com/en/3.1/intro/install/,https://docs.djangoproject.com/el/3.1/intro/install/@@https://docs.djangoproject.com/en/3.1/intro/install/@@https://docs.djangoproject.com/es/3.1/intro/install/@@https://docs.djangoproject.com/fr/3.1/intro/install/@@https://docs.djangoproject.com/id/3.1/intro/install/@@https://docs.djangoproject.com/ja/3.1/intro/install/@@https://docs.djangoproject.com/ko/3.1/intro/install/@@https://docs.djangoproject.com/pl/3.1/intro/install/@@https://docs.djangoproject.com/pt-br/3.1/intro/install/@@https://docs.djangoproject.com/zh-hans/3.1/intro/install/,,,,,,,,
+https://www.djangoproject.com/weblog/2020/nov/02/bugfix-releases/,"Django bugfix releases issued: 3.1.3, 3.0.11, and 2.2.17 | Weblog | Django","width=device-width, initial-scale=1",utf-8,Additional Information@@Django Links,"Django bugfix releases issued: 3.1.3, 3.0.11, and 2.2.17@@Support Django!@@Upcoming Events@@ @@ @@ @@ @@ @@ @@ @@ @@ @@ @@ @@ @@ @@ @@ @@ @@Learn More@@Get Involved@@Follow Us@@Support Us",NA,NA,"The web framework for perfectionists with deadlines. 
            Overview 
          
            Download 
@@ -775,13 +775,13 @@ for this release is Carlton Gibson: E17DF5C82B4F9D00.
         Foundation  and individual contributors. Django is a
          registered
         trademark  of the Django Software Foundation.
-      ",34251,180,www.djangoproject.com,0.639925003051757,,,,,1,200,https://www.djangoproject.com/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/download/@@https://docs.djangoproject.com/@@https://www.djangoproject.com/weblog/@@https://www.djangoproject.com/community/@@https://github.com/django/django@@https://code.djangoproject.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/fundraising/@@https://www.djangoproject.com/weblog/@@https://docs.djangoproject.com/en/stable/releases/3.1.3/@@https://docs.djangoproject.com/en/stable/releases/3.0.11/@@https://docs.djangoproject.com/en/stable/releases/2.2.17/@@https://www.djangoproject.com/download/@@https://www.djangoproject.com/weblog/2020/nov/02/bugfix-releases/#top@@https://www.djangoproject.com/fundraising/@@https://2021.djangocon.us/@@https://www.djangoproject.com/foundation/conferences/@@https://www.djangoproject.com/weblog/2020/@@https://www.djangoproject.com/weblog/2020/nov/@@https://www.djangoproject.com/weblog/2020/oct/@@https://www.djangoproject.com/weblog/2020/sep/@@https://www.djangoproject.com/weblog/2020/aug/@@https://www.djangoproject.com/weblog/2020/jul/@@https://www.djangoproject.com/weblog/2020/jun/@@https://www.djangoproject.com/weblog/2020/may/@@https://www.djangoproject.com/weblog/2020/apr/@@https://www.djangoproject.com/weblog/2020/mar/@@https://www.djangoproject.com/weblog/2020/feb/@@https://www.djangoproject.com/weblog/2020/jan/@@https://www.djangoproject.com/weblog/2019/@@https://www.djangoproject.com/weblog/2019/dec/@@https://www.djangoproject.com/weblog/2019/nov/@@https://www.djangoproject.com/weblog/2019/oct/@@https://www.djangoproject.com/weblog/2019/sep/@@https://www.djangoproject.com/weblog/2019/aug/@@https://www.djangoproject.com/weblog/2019/jul/@@https://www.djangoproject.com/weblog/2019/jun/@@https://www.djangoproject.com/weblog/2019/may/@@https://www.djangoproject.com/weblog/2019/apr/@@https://www.djangoproject.com/weblog/2019/mar/@@https://www.djangoproject.com/weblog/2019/feb/@@https://www.djangoproject.com/weblog/2019/jan/@@https://www.djangoproject.com/weblog/2018/@@https://www.djangoproject.com/weblog/2018/dec/@@https://www.djangoproject.com/weblog/2018/nov/@@https://www.djangoproject.com/weblog/2018/oct/@@https://www.djangoproject.com/weblog/2018/aug/@@https://www.djangoproject.com/weblog/2018/jul/@@https://www.djangoproject.com/weblog/2018/jun/@@https://www.djangoproject.com/weblog/2018/may/@@https://www.djangoproject.com/weblog/2018/apr/@@https://www.djangoproject.com/weblog/2018/mar/@@https://www.djangoproject.com/weblog/2018/feb/@@https://www.djangoproject.com/weblog/2018/jan/@@https://www.djangoproject.com/weblog/2017/@@https://www.djangoproject.com/weblog/2017/dec/@@https://www.djangoproject.com/weblog/2017/nov/@@https://www.djangoproject.com/weblog/2017/oct/@@https://www.djangoproject.com/weblog/2017/sep/@@https://www.djangoproject.com/weblog/2017/aug/@@https://www.djangoproject.com/weblog/2017/jul/@@https://www.djangoproject.com/weblog/2017/jun/@@https://www.djangoproject.com/weblog/2017/may/@@https://www.djangoproject.com/weblog/2017/apr/@@https://www.djangoproject.com/weblog/2017/mar/@@https://www.djangoproject.com/weblog/2017/feb/@@https://www.djangoproject.com/weblog/2017/jan/@@https://www.djangoproject.com/weblog/2016/@@https://www.djangoproject.com/weblog/2016/dec/@@https://www.djangoproject.com/weblog/2016/nov/@@https://www.djangoproject.com/weblog/2016/oct/@@https://www.djangoproject.com/weblog/2016/sep/@@https://www.djangoproject.com/weblog/2016/aug/@@https://www.djangoproject.com/weblog/2016/jul/@@https://www.djangoproject.com/weblog/2016/jun/@@https://www.djangoproject.com/weblog/2016/may/@@https://www.djangoproject.com/weblog/2016/apr/@@https://www.djangoproject.com/weblog/2016/mar/@@https://www.djangoproject.com/weblog/2016/feb/@@https://www.djangoproject.com/weblog/2016/jan/@@https://www.djangoproject.com/weblog/2015/@@https://www.djangoproject.com/weblog/2015/dec/@@https://www.djangoproject.com/weblog/2015/nov/@@https://www.djangoproject.com/weblog/2015/oct/@@https://www.djangoproject.com/weblog/2015/sep/@@https://www.djangoproject.com/weblog/2015/aug/@@https://www.djangoproject.com/weblog/2015/jul/@@https://www.djangoproject.com/weblog/2015/jun/@@https://www.djangoproject.com/weblog/2015/may/@@https://www.djangoproject.com/weblog/2015/apr/@@https://www.djangoproject.com/weblog/2015/mar/@@https://www.djangoproject.com/weblog/2015/feb/@@https://www.djangoproject.com/weblog/2015/jan/@@https://www.djangoproject.com/weblog/2014/@@https://www.djangoproject.com/weblog/2014/dec/@@https://www.djangoproject.com/weblog/2014/nov/@@https://www.djangoproject.com/weblog/2014/oct/@@https://www.djangoproject.com/weblog/2014/sep/@@https://www.djangoproject.com/weblog/2014/aug/@@https://www.djangoproject.com/weblog/2014/jul/@@https://www.djangoproject.com/weblog/2014/jun/@@https://www.djangoproject.com/weblog/2014/may/@@https://www.djangoproject.com/weblog/2014/apr/@@https://www.djangoproject.com/weblog/2014/mar/@@https://www.djangoproject.com/weblog/2014/feb/@@https://www.djangoproject.com/weblog/2014/jan/@@https://www.djangoproject.com/weblog/2013/@@https://www.djangoproject.com/weblog/2013/dec/@@https://www.djangoproject.com/weblog/2013/nov/@@https://www.djangoproject.com/weblog/2013/oct/@@https://www.djangoproject.com/weblog/2013/sep/@@https://www.djangoproject.com/weblog/2013/aug/@@https://www.djangoproject.com/weblog/2013/jul/@@https://www.djangoproject.com/weblog/2013/jun/@@https://www.djangoproject.com/weblog/2013/may/@@https://www.djangoproject.com/weblog/2013/apr/@@https://www.djangoproject.com/weblog/2013/mar/@@https://www.djangoproject.com/weblog/2013/feb/@@https://www.djangoproject.com/weblog/2013/jan/@@https://www.djangoproject.com/weblog/2012/@@https://www.djangoproject.com/weblog/2012/dec/@@https://www.djangoproject.com/weblog/2012/nov/@@https://www.djangoproject.com/weblog/2012/oct/@@https://www.djangoproject.com/weblog/2012/sep/@@https://www.djangoproject.com/weblog/2012/aug/@@https://www.djangoproject.com/weblog/2012/jul/@@https://www.djangoproject.com/weblog/2012/jun/@@https://www.djangoproject.com/weblog/2012/may/@@https://www.djangoproject.com/weblog/2012/apr/@@https://www.djangoproject.com/weblog/2012/mar/@@https://www.djangoproject.com/weblog/2012/feb/@@https://www.djangoproject.com/weblog/2012/jan/@@https://www.djangoproject.com/weblog/2011/@@https://www.djangoproject.com/weblog/2011/dec/@@https://www.djangoproject.com/weblog/2011/nov/@@https://www.djangoproject.com/weblog/2011/sep/@@https://www.djangoproject.com/weblog/2011/aug/@@https://www.djangoproject.com/weblog/2011/jun/@@https://www.djangoproject.com/weblog/2011/apr/@@https://www.djangoproject.com/weblog/2011/mar/@@https://www.djangoproject.com/weblog/2011/feb/@@https://www.djangoproject.com/weblog/2011/jan/@@https://www.djangoproject.com/weblog/2010/@@https://www.djangoproject.com/weblog/2010/dec/@@https://www.djangoproject.com/weblog/2010/nov/@@https://www.djangoproject.com/weblog/2010/oct/@@https://www.djangoproject.com/weblog/2010/sep/@@https://www.djangoproject.com/weblog/2010/may/@@https://www.djangoproject.com/weblog/2010/apr/@@https://www.djangoproject.com/weblog/2010/mar/@@https://www.djangoproject.com/weblog/2010/feb/@@https://www.djangoproject.com/weblog/2010/jan/@@https://www.djangoproject.com/weblog/2009/@@https://www.djangoproject.com/weblog/2009/dec/@@https://www.djangoproject.com/weblog/2009/oct/@@https://www.djangoproject.com/weblog/2009/aug/@@https://www.djangoproject.com/weblog/2009/jul/@@https://www.djangoproject.com/weblog/2009/may/@@https://www.djangoproject.com/weblog/2009/mar/@@https://www.djangoproject.com/weblog/2009/feb/@@https://www.djangoproject.com/weblog/2008/@@https://www.djangoproject.com/weblog/2008/nov/@@https://www.djangoproject.com/weblog/2008/oct/@@https://www.djangoproject.com/weblog/2008/sep/@@https://www.djangoproject.com/weblog/2008/aug/@@https://www.djangoproject.com/weblog/2008/jul/@@https://www.djangoproject.com/weblog/2008/jun/@@https://www.djangoproject.com/weblog/2008/may/@@https://www.djangoproject.com/weblog/2008/apr/@@https://www.djangoproject.com/weblog/2008/jan/@@https://www.djangoproject.com/weblog/2007/@@https://www.djangoproject.com/weblog/2007/dec/@@https://www.djangoproject.com/weblog/2007/nov/@@https://www.djangoproject.com/weblog/2007/oct/@@https://www.djangoproject.com/weblog/2007/sep/@@https://www.djangoproject.com/weblog/2007/aug/@@https://www.djangoproject.com/weblog/2007/jul/@@https://www.djangoproject.com/weblog/2007/jun/@@https://www.djangoproject.com/weblog/2007/may/@@https://www.djangoproject.com/weblog/2007/apr/@@https://www.djangoproject.com/weblog/2007/mar/@@https://www.djangoproject.com/weblog/2007/feb/@@https://www.djangoproject.com/weblog/2007/jan/@@https://www.djangoproject.com/weblog/2006/@@https://www.djangoproject.com/weblog/2006/dec/@@https://www.djangoproject.com/weblog/2006/nov/@@https://www.djangoproject.com/weblog/2006/oct/@@https://www.djangoproject.com/weblog/2006/sep/@@https://www.djangoproject.com/weblog/2006/aug/@@https://www.djangoproject.com/weblog/2006/jul/@@https://www.djangoproject.com/weblog/2006/jun/@@https://www.djangoproject.com/weblog/2006/may/@@https://www.djangoproject.com/weblog/2006/apr/@@https://www.djangoproject.com/weblog/2006/mar/@@https://www.djangoproject.com/weblog/2006/feb/@@https://www.djangoproject.com/weblog/2006/jan/@@https://www.djangoproject.com/weblog/2005/@@https://www.djangoproject.com/weblog/2005/dec/@@https://www.djangoproject.com/weblog/2005/nov/@@https://www.djangoproject.com/weblog/2005/oct/@@https://www.djangoproject.com/weblog/2005/sep/@@https://www.djangoproject.com/weblog/2005/aug/@@https://www.djangoproject.com/weblog/2005/jul/@@https://www.djangoproject.com/rss/weblog/@@https://code.djangoproject.com/timeline?daysback=90&max=50&wiki=on&ticket=on&changeset=on&milestone=on&format=rss@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/start/@@https://docs.djangoproject.com/en/dev/internals/organization/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/conduct/@@https://www.djangoproject.com/diversity/@@https://www.djangoproject.com/community/@@https://docs.djangoproject.com/en/dev/internals/contributing/@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/@@https://docs.djangoproject.com/en/dev/internals/security/#reporting-security-issues@@https://github.com/django@@https://twitter.com/djangoproject@@https://www.djangoproject.com/rss/weblog/@@https://groups.google.com/forum/#!forum/django-users@@https://www.djangoproject.com/fundraising/@@https://django.threadless.com/@@https://www.djangoproject.com/foundation/donate/#amazon-smile@@https://www.djangoproject.com/foundation/donate/#benevity-giving@@https://www.rackspace.com@@https://www.threespot.com@@http://andrevv.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/trademarks/,"Django@@Overview@@Download@@Documentation@@News@@Community@@Code@@Issues@@About@@♥ Donate@@News & Events@@3.1.3@@3.0.11@@2.2.17@@our downloads page@@ Back to Top@@
+      ",34251,180,www.djangoproject.com,0.639925003,0,0,NA,NA,1,200,https://www.djangoproject.com/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/download/@@https://docs.djangoproject.com/@@https://www.djangoproject.com/weblog/@@https://www.djangoproject.com/community/@@https://github.com/django/django@@https://code.djangoproject.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/fundraising/@@https://www.djangoproject.com/weblog/@@https://docs.djangoproject.com/en/stable/releases/3.1.3/@@https://docs.djangoproject.com/en/stable/releases/3.0.11/@@https://docs.djangoproject.com/en/stable/releases/2.2.17/@@https://www.djangoproject.com/download/@@https://www.djangoproject.com/weblog/2020/nov/02/bugfix-releases/#top@@https://www.djangoproject.com/fundraising/@@https://2021.djangocon.us/@@https://www.djangoproject.com/foundation/conferences/@@https://www.djangoproject.com/weblog/2020/@@https://www.djangoproject.com/weblog/2020/nov/@@https://www.djangoproject.com/weblog/2020/oct/@@https://www.djangoproject.com/weblog/2020/sep/@@https://www.djangoproject.com/weblog/2020/aug/@@https://www.djangoproject.com/weblog/2020/jul/@@https://www.djangoproject.com/weblog/2020/jun/@@https://www.djangoproject.com/weblog/2020/may/@@https://www.djangoproject.com/weblog/2020/apr/@@https://www.djangoproject.com/weblog/2020/mar/@@https://www.djangoproject.com/weblog/2020/feb/@@https://www.djangoproject.com/weblog/2020/jan/@@https://www.djangoproject.com/weblog/2019/@@https://www.djangoproject.com/weblog/2019/dec/@@https://www.djangoproject.com/weblog/2019/nov/@@https://www.djangoproject.com/weblog/2019/oct/@@https://www.djangoproject.com/weblog/2019/sep/@@https://www.djangoproject.com/weblog/2019/aug/@@https://www.djangoproject.com/weblog/2019/jul/@@https://www.djangoproject.com/weblog/2019/jun/@@https://www.djangoproject.com/weblog/2019/may/@@https://www.djangoproject.com/weblog/2019/apr/@@https://www.djangoproject.com/weblog/2019/mar/@@https://www.djangoproject.com/weblog/2019/feb/@@https://www.djangoproject.com/weblog/2019/jan/@@https://www.djangoproject.com/weblog/2018/@@https://www.djangoproject.com/weblog/2018/dec/@@https://www.djangoproject.com/weblog/2018/nov/@@https://www.djangoproject.com/weblog/2018/oct/@@https://www.djangoproject.com/weblog/2018/aug/@@https://www.djangoproject.com/weblog/2018/jul/@@https://www.djangoproject.com/weblog/2018/jun/@@https://www.djangoproject.com/weblog/2018/may/@@https://www.djangoproject.com/weblog/2018/apr/@@https://www.djangoproject.com/weblog/2018/mar/@@https://www.djangoproject.com/weblog/2018/feb/@@https://www.djangoproject.com/weblog/2018/jan/@@https://www.djangoproject.com/weblog/2017/@@https://www.djangoproject.com/weblog/2017/dec/@@https://www.djangoproject.com/weblog/2017/nov/@@https://www.djangoproject.com/weblog/2017/oct/@@https://www.djangoproject.com/weblog/2017/sep/@@https://www.djangoproject.com/weblog/2017/aug/@@https://www.djangoproject.com/weblog/2017/jul/@@https://www.djangoproject.com/weblog/2017/jun/@@https://www.djangoproject.com/weblog/2017/may/@@https://www.djangoproject.com/weblog/2017/apr/@@https://www.djangoproject.com/weblog/2017/mar/@@https://www.djangoproject.com/weblog/2017/feb/@@https://www.djangoproject.com/weblog/2017/jan/@@https://www.djangoproject.com/weblog/2016/@@https://www.djangoproject.com/weblog/2016/dec/@@https://www.djangoproject.com/weblog/2016/nov/@@https://www.djangoproject.com/weblog/2016/oct/@@https://www.djangoproject.com/weblog/2016/sep/@@https://www.djangoproject.com/weblog/2016/aug/@@https://www.djangoproject.com/weblog/2016/jul/@@https://www.djangoproject.com/weblog/2016/jun/@@https://www.djangoproject.com/weblog/2016/may/@@https://www.djangoproject.com/weblog/2016/apr/@@https://www.djangoproject.com/weblog/2016/mar/@@https://www.djangoproject.com/weblog/2016/feb/@@https://www.djangoproject.com/weblog/2016/jan/@@https://www.djangoproject.com/weblog/2015/@@https://www.djangoproject.com/weblog/2015/dec/@@https://www.djangoproject.com/weblog/2015/nov/@@https://www.djangoproject.com/weblog/2015/oct/@@https://www.djangoproject.com/weblog/2015/sep/@@https://www.djangoproject.com/weblog/2015/aug/@@https://www.djangoproject.com/weblog/2015/jul/@@https://www.djangoproject.com/weblog/2015/jun/@@https://www.djangoproject.com/weblog/2015/may/@@https://www.djangoproject.com/weblog/2015/apr/@@https://www.djangoproject.com/weblog/2015/mar/@@https://www.djangoproject.com/weblog/2015/feb/@@https://www.djangoproject.com/weblog/2015/jan/@@https://www.djangoproject.com/weblog/2014/@@https://www.djangoproject.com/weblog/2014/dec/@@https://www.djangoproject.com/weblog/2014/nov/@@https://www.djangoproject.com/weblog/2014/oct/@@https://www.djangoproject.com/weblog/2014/sep/@@https://www.djangoproject.com/weblog/2014/aug/@@https://www.djangoproject.com/weblog/2014/jul/@@https://www.djangoproject.com/weblog/2014/jun/@@https://www.djangoproject.com/weblog/2014/may/@@https://www.djangoproject.com/weblog/2014/apr/@@https://www.djangoproject.com/weblog/2014/mar/@@https://www.djangoproject.com/weblog/2014/feb/@@https://www.djangoproject.com/weblog/2014/jan/@@https://www.djangoproject.com/weblog/2013/@@https://www.djangoproject.com/weblog/2013/dec/@@https://www.djangoproject.com/weblog/2013/nov/@@https://www.djangoproject.com/weblog/2013/oct/@@https://www.djangoproject.com/weblog/2013/sep/@@https://www.djangoproject.com/weblog/2013/aug/@@https://www.djangoproject.com/weblog/2013/jul/@@https://www.djangoproject.com/weblog/2013/jun/@@https://www.djangoproject.com/weblog/2013/may/@@https://www.djangoproject.com/weblog/2013/apr/@@https://www.djangoproject.com/weblog/2013/mar/@@https://www.djangoproject.com/weblog/2013/feb/@@https://www.djangoproject.com/weblog/2013/jan/@@https://www.djangoproject.com/weblog/2012/@@https://www.djangoproject.com/weblog/2012/dec/@@https://www.djangoproject.com/weblog/2012/nov/@@https://www.djangoproject.com/weblog/2012/oct/@@https://www.djangoproject.com/weblog/2012/sep/@@https://www.djangoproject.com/weblog/2012/aug/@@https://www.djangoproject.com/weblog/2012/jul/@@https://www.djangoproject.com/weblog/2012/jun/@@https://www.djangoproject.com/weblog/2012/may/@@https://www.djangoproject.com/weblog/2012/apr/@@https://www.djangoproject.com/weblog/2012/mar/@@https://www.djangoproject.com/weblog/2012/feb/@@https://www.djangoproject.com/weblog/2012/jan/@@https://www.djangoproject.com/weblog/2011/@@https://www.djangoproject.com/weblog/2011/dec/@@https://www.djangoproject.com/weblog/2011/nov/@@https://www.djangoproject.com/weblog/2011/sep/@@https://www.djangoproject.com/weblog/2011/aug/@@https://www.djangoproject.com/weblog/2011/jun/@@https://www.djangoproject.com/weblog/2011/apr/@@https://www.djangoproject.com/weblog/2011/mar/@@https://www.djangoproject.com/weblog/2011/feb/@@https://www.djangoproject.com/weblog/2011/jan/@@https://www.djangoproject.com/weblog/2010/@@https://www.djangoproject.com/weblog/2010/dec/@@https://www.djangoproject.com/weblog/2010/nov/@@https://www.djangoproject.com/weblog/2010/oct/@@https://www.djangoproject.com/weblog/2010/sep/@@https://www.djangoproject.com/weblog/2010/may/@@https://www.djangoproject.com/weblog/2010/apr/@@https://www.djangoproject.com/weblog/2010/mar/@@https://www.djangoproject.com/weblog/2010/feb/@@https://www.djangoproject.com/weblog/2010/jan/@@https://www.djangoproject.com/weblog/2009/@@https://www.djangoproject.com/weblog/2009/dec/@@https://www.djangoproject.com/weblog/2009/oct/@@https://www.djangoproject.com/weblog/2009/aug/@@https://www.djangoproject.com/weblog/2009/jul/@@https://www.djangoproject.com/weblog/2009/may/@@https://www.djangoproject.com/weblog/2009/mar/@@https://www.djangoproject.com/weblog/2009/feb/@@https://www.djangoproject.com/weblog/2008/@@https://www.djangoproject.com/weblog/2008/nov/@@https://www.djangoproject.com/weblog/2008/oct/@@https://www.djangoproject.com/weblog/2008/sep/@@https://www.djangoproject.com/weblog/2008/aug/@@https://www.djangoproject.com/weblog/2008/jul/@@https://www.djangoproject.com/weblog/2008/jun/@@https://www.djangoproject.com/weblog/2008/may/@@https://www.djangoproject.com/weblog/2008/apr/@@https://www.djangoproject.com/weblog/2008/jan/@@https://www.djangoproject.com/weblog/2007/@@https://www.djangoproject.com/weblog/2007/dec/@@https://www.djangoproject.com/weblog/2007/nov/@@https://www.djangoproject.com/weblog/2007/oct/@@https://www.djangoproject.com/weblog/2007/sep/@@https://www.djangoproject.com/weblog/2007/aug/@@https://www.djangoproject.com/weblog/2007/jul/@@https://www.djangoproject.com/weblog/2007/jun/@@https://www.djangoproject.com/weblog/2007/may/@@https://www.djangoproject.com/weblog/2007/apr/@@https://www.djangoproject.com/weblog/2007/mar/@@https://www.djangoproject.com/weblog/2007/feb/@@https://www.djangoproject.com/weblog/2007/jan/@@https://www.djangoproject.com/weblog/2006/@@https://www.djangoproject.com/weblog/2006/dec/@@https://www.djangoproject.com/weblog/2006/nov/@@https://www.djangoproject.com/weblog/2006/oct/@@https://www.djangoproject.com/weblog/2006/sep/@@https://www.djangoproject.com/weblog/2006/aug/@@https://www.djangoproject.com/weblog/2006/jul/@@https://www.djangoproject.com/weblog/2006/jun/@@https://www.djangoproject.com/weblog/2006/may/@@https://www.djangoproject.com/weblog/2006/apr/@@https://www.djangoproject.com/weblog/2006/mar/@@https://www.djangoproject.com/weblog/2006/feb/@@https://www.djangoproject.com/weblog/2006/jan/@@https://www.djangoproject.com/weblog/2005/@@https://www.djangoproject.com/weblog/2005/dec/@@https://www.djangoproject.com/weblog/2005/nov/@@https://www.djangoproject.com/weblog/2005/oct/@@https://www.djangoproject.com/weblog/2005/sep/@@https://www.djangoproject.com/weblog/2005/aug/@@https://www.djangoproject.com/weblog/2005/jul/@@https://www.djangoproject.com/rss/weblog/@@https://code.djangoproject.com/timeline?daysback=90&max=50&wiki=on&ticket=on&changeset=on&milestone=on&format=rss@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/start/@@https://docs.djangoproject.com/en/dev/internals/organization/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/conduct/@@https://www.djangoproject.com/diversity/@@https://www.djangoproject.com/community/@@https://docs.djangoproject.com/en/dev/internals/contributing/@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/@@https://docs.djangoproject.com/en/dev/internals/security/#reporting-security-issues@@https://github.com/django@@https://twitter.com/djangoproject@@https://www.djangoproject.com/rss/weblog/@@https://groups.google.com/forum/#!forum/django-users@@https://www.djangoproject.com/fundraising/@@https://django.threadless.com/@@https://www.djangoproject.com/foundation/donate/#amazon-smile@@https://www.djangoproject.com/foundation/donate/#benevity-giving@@https://www.rackspace.com@@https://www.threespot.com@@http://andrevv.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/trademarks/,"Django@@Overview@@Download@@Documentation@@News@@Community@@Code@@Issues@@About@@♥ Donate@@News & Events@@3.1.3@@3.0.11@@2.2.17@@our downloads page@@ Back to Top@@
           快代理 donated to the Django Software Foundation to
           support Django development. Donate today!
         @@DjangoCon US 2021@@Want your event listed here?@@2020@@November 2020@@October 2020@@September 2020@@August 2020@@July 2020@@June 2020@@May 2020@@April 2020@@March 2020@@February 2020@@January 2020@@2019@@December 2019@@November 2019@@October 2019@@September 2019@@August 2019@@July 2019@@June 2019@@May 2019@@April 2019@@March 2019@@February 2019@@January 2019@@2018@@December 2018@@November 2018@@October 2018@@August 2018@@July 2018@@June 2018@@May 2018@@April 2018@@March 2018@@February 2018@@January 2018@@2017@@December 2017@@November 2017@@October 2017@@September 2017@@August 2017@@July 2017@@June 2017@@May 2017@@April 2017@@March 2017@@February 2017@@January 2017@@2016@@December 2016@@November 2016@@October 2016@@September 2016@@August 2016@@July 2016@@June 2016@@May 2016@@April 2016@@March 2016@@February 2016@@January 2016@@2015@@December 2015@@November 2015@@October 2015@@September 2015@@August 2015@@July 2015@@June 2015@@May 2015@@April 2015@@March 2015@@February 2015@@January 2015@@2014@@December 2014@@November 2014@@October 2014@@September 2014@@August 2014@@July 2014@@June 2014@@May 2014@@April 2014@@March 2014@@February 2014@@January 2014@@2013@@December 2013@@November 2013@@October 2013@@September 2013@@August 2013@@July 2013@@June 2013@@May 2013@@April 2013@@March 2013@@February 2013@@January 2013@@2012@@December 2012@@November 2012@@October 2012@@September 2012@@August 2012@@July 2012@@June 2012@@May 2012@@April 2012@@March 2012@@February 2012@@January 2012@@2011@@December 2011@@November 2011@@September 2011@@August 2011@@June 2011@@April 2011@@March 2011@@February 2011@@January 2011@@2010@@December 2010@@November 2010@@October 2010@@September 2010@@May 2010@@April 2010@@March 2010@@February 2010@@January 2010@@2009@@December 2009@@October 2009@@August 2009@@July 2009@@May 2009@@March 2009@@February 2009@@2008@@November 2008@@October 2008@@September 2008@@August 2008@@July 2008@@June 2008@@May 2008@@April 2008@@January 2008@@2007@@December 2007@@November 2007@@October 2007@@September 2007@@August 2007@@July 2007@@June 2007@@May 2007@@April 2007@@March 2007@@February 2007@@January 2007@@2006@@December 2006@@November 2006@@October 2006@@September 2006@@August 2006@@July 2006@@June 2006@@May 2006@@April 2006@@March 2006@@February 2006@@January 2006@@2005@@December 2005@@November 2005@@October 2005@@September 2005@@August 2005@@July 2005@@Latest news entries@@Recent code changes@@About Django@@Getting Started with Django@@Team Organization@@Django Software Foundation@@Code of Conduct@@Diversity Statement@@Join a Group@@Contribute to Django@@Submit a Bug@@Report a Security Issue@@GitHub@@Twitter@@News RSS@@Django Users Mailing List@@Sponsor Django@@Official merchandise store@@Amazon Smile@@Benevity Workplace Giving Program@@Rackspace@@Threespot@@@@ Django Software
         Foundation@@registered
-        trademark",False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False,https://static.djangoproject.com/img/fundraising-heart.cd6bb84ffd33.svg,Support Django!,199.232.18.217,2020-11-15 12:24:34,nginx,text/html; charset=utf-8,en,SAMEORIGIN,nosniff,1; mode=block,"Sun, 15 Nov 2020 12:26:05 GMT",max-age=300,max-age=31536000; includeSubDomains; preload,https://code.djangoproject.com,bytes,"Sun, 15 Nov 2020 12:24:34 GMT",1.1 varnish,0.0,cache-vie21629-VIE,MISS,0,"S1605443074.970062,VS0,VE510","Cookie, Accept-Language, Accept-Encoding","text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",en,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36","gzip, deflate",,https://www.djangoproject.com/rss/weblog/,,https://www.djangoproject.com/,,,,,,
-https://www.djangoproject.com/foundation/,About the Django Software Foundation | Django,"width=device-width, initial-scale=1",utf-8,Django Software Foundation@@About the Django Software Foundation@@Additional Information@@Django Links,Corporate Members@@Individual Members@@Support for events@@Prizes@@Board@@Questions?@@Support Django!@@About the foundation@@Learn More@@Get Involved@@Follow Us@@Support Us,Code of Conduct requirement,,"The web framework for perfectionists with deadlines. 
+        trademark",False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False,https://static.djangoproject.com/img/fundraising-heart.cd6bb84ffd33.svg,Support Django!,199.232.18.217,15-11-2020 12:24,nginx,text/html; charset=utf-8,en,SAMEORIGIN,nosniff,1; mode=block,"Sun, 15 Nov 2020 12:26:05 GMT",max-age=300,max-age=31536000; includeSubDomains; preload,https://code.djangoproject.com,bytes,"Sun, 15 Nov 2020 12:24:34 GMT",1.1 varnish,0,cache-vie21629-VIE,MISS,0,"S1605443074.970062,VS0,VE510","Cookie, Accept-Language, Accept-Encoding","text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",en,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36","gzip, deflate",NA,https://www.djangoproject.com/rss/weblog/,,,,,,,,
+https://www.djangoproject.com/foundation/,About the Django Software Foundation | Django,"width=device-width, initial-scale=1",utf-8,Django Software Foundation@@About the Django Software Foundation@@Additional Information@@Django Links,Corporate Members@@Individual Members@@Support for events@@Prizes@@Board@@Questions?@@Support Django!@@About the foundation@@Learn More@@Get Involved@@Follow Us@@Support Us,Code of Conduct requirement,NA,"The web framework for perfectionists with deadlines. 
            Overview 
          
            Download 
@@ -813,13 +813,13 @@ The foundation's goals are to:
         Foundation  and individual contributors. Django is a
          registered
         trademark  of the Django Software Foundation.
-      ",12894,180,www.djangoproject.com,0.7029559612274171,,,,,1,200,https://www.djangoproject.com/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/download/@@https://docs.djangoproject.com/@@https://www.djangoproject.com/weblog/@@https://www.djangoproject.com/community/@@https://github.com/django/django@@https://code.djangoproject.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/fundraising/@@https://www.djangoproject.com/foundation/corporate-members/@@https://www.djangoproject.com/foundation/corporate-membership/@@https://www.djangoproject.com/foundation/individual-members/@@https://docs.google.com/forms/d/e/1FAIpQLSd5lbWxAO-sylEEjHVKBNIpmHlhdJRf0_LCo8glnLUWd-Q2Sw/viewform?usp=sf_link@@https://www.djangoproject.com/foundation/conferences/@@https://www.djangoproject.com/foundation/code-of-conduct/@@https://www.djangoproject.com/foundation/prizes/@@https://www.djangoproject.com/contact/foundation/@@https://www.djangoproject.com/foundation/#top@@https://www.djangoproject.com/fundraising/@@https://www.djangoproject.com/foundation/faq/@@https://www.djangoproject.com/foundation/records/@@https://www.djangoproject.com/contact/foundation/@@https://www.djangoproject.com/foundation/cla/@@https://www.djangoproject.com/foundation/conferences/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/start/@@https://docs.djangoproject.com/en/dev/internals/organization/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/conduct/@@https://www.djangoproject.com/diversity/@@https://www.djangoproject.com/community/@@https://docs.djangoproject.com/en/dev/internals/contributing/@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/@@https://docs.djangoproject.com/en/dev/internals/security/#reporting-security-issues@@https://github.com/django@@https://twitter.com/djangoproject@@https://www.djangoproject.com/rss/weblog/@@https://groups.google.com/forum/#!forum/django-users@@https://www.djangoproject.com/fundraising/@@https://django.threadless.com/@@https://www.djangoproject.com/foundation/donate/#amazon-smile@@https://www.djangoproject.com/foundation/donate/#benevity-giving@@https://www.rackspace.com@@https://www.threespot.com@@http://andrevv.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/trademarks/,"Django@@Overview@@Download@@Documentation@@News@@Community@@Code@@Issues@@About@@♥ Donate@@corporate members@@corporate membership page@@Individual members@@ please fill out this form@@how the DSF can support your conference or other event@@Code of Conduct@@awards prizes@@Get in touch!@@ Back to Top@@
+      ",12894,180,www.djangoproject.com,0.702955961,0,0,NA,NA,1,200,https://www.djangoproject.com/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/download/@@https://docs.djangoproject.com/@@https://www.djangoproject.com/weblog/@@https://www.djangoproject.com/community/@@https://github.com/django/django@@https://code.djangoproject.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/fundraising/@@https://www.djangoproject.com/foundation/corporate-members/@@https://www.djangoproject.com/foundation/corporate-membership/@@https://www.djangoproject.com/foundation/individual-members/@@https://docs.google.com/forms/d/e/1FAIpQLSd5lbWxAO-sylEEjHVKBNIpmHlhdJRf0_LCo8glnLUWd-Q2Sw/viewform?usp=sf_link@@https://www.djangoproject.com/foundation/conferences/@@https://www.djangoproject.com/foundation/code-of-conduct/@@https://www.djangoproject.com/foundation/prizes/@@https://www.djangoproject.com/contact/foundation/@@https://www.djangoproject.com/foundation/#top@@https://www.djangoproject.com/fundraising/@@https://www.djangoproject.com/foundation/faq/@@https://www.djangoproject.com/foundation/records/@@https://www.djangoproject.com/contact/foundation/@@https://www.djangoproject.com/foundation/cla/@@https://www.djangoproject.com/foundation/conferences/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/start/@@https://docs.djangoproject.com/en/dev/internals/organization/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/conduct/@@https://www.djangoproject.com/diversity/@@https://www.djangoproject.com/community/@@https://docs.djangoproject.com/en/dev/internals/contributing/@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/@@https://docs.djangoproject.com/en/dev/internals/security/#reporting-security-issues@@https://github.com/django@@https://twitter.com/djangoproject@@https://www.djangoproject.com/rss/weblog/@@https://groups.google.com/forum/#!forum/django-users@@https://www.djangoproject.com/fundraising/@@https://django.threadless.com/@@https://www.djangoproject.com/foundation/donate/#amazon-smile@@https://www.djangoproject.com/foundation/donate/#benevity-giving@@https://www.rackspace.com@@https://www.threespot.com@@http://andrevv.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/trademarks/,"Django@@Overview@@Download@@Documentation@@News@@Community@@Code@@Issues@@About@@♥ Donate@@corporate members@@corporate membership page@@Individual members@@ please fill out this form@@how the DSF can support your conference or other event@@Code of Conduct@@awards prizes@@Get in touch!@@ Back to Top@@
           Riccardo Magliocchetti donated to the Django Software Foundation to
           support Django development. Donate today!
         @@FAQ@@Records@@Contact us@@Contributor license agreements@@Organizing a Django conference@@About Django@@Getting Started with Django@@Team Organization@@Django Software Foundation@@Code of Conduct@@Diversity Statement@@Join a Group@@Contribute to Django@@Submit a Bug@@Report a Security Issue@@GitHub@@Twitter@@News RSS@@Django Users Mailing List@@Sponsor Django@@Official merchandise store@@Amazon Smile@@Benevity Workplace Giving Program@@Rackspace@@Threespot@@@@ Django Software
         Foundation@@registered
-        trademark",False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False,https://static.djangoproject.com/img/fundraising-heart.cd6bb84ffd33.svg,Support Django!,199.232.18.217,2020-11-15 12:24:34,nginx,text/html; charset=utf-8,en,SAMEORIGIN,nosniff,1; mode=block,"Sun, 15 Nov 2020 12:29:34 GMT",max-age=300,max-age=31536000; includeSubDomains; preload,https://code.djangoproject.com,bytes,"Sun, 15 Nov 2020 12:24:34 GMT",1.1 varnish,0.0,cache-vie21651-VIE,MISS,0,"S1605443074.132842,VS0,VE471","Accept-Language, Accept-Encoding","text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",en,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36","gzip, deflate",,,,https://www.djangoproject.com/,,,,,,
-https://docs.djangoproject.com/en/dev/internals/security/#reporting-security-issues,Django’s security policies | Django documentation | Django,"width=device-width, initial-scale=1",utf-8,Django’s security policies@@Additional Information@@Django Links,Reporting security issues@@Supported versions@@How Django discloses security issues@@Who receives advance notification@@Requesting notifications@@Support Django!@@Contents@@Browse@@You are here:@@Getting help@@Download:@@Learn More@@Get Involved@@Follow Us@@Support Us,,,"The web framework for perfectionists with deadlines. 
+        trademark",False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False,https://static.djangoproject.com/img/fundraising-heart.cd6bb84ffd33.svg,Support Django!,199.232.18.217,15-11-2020 12:24,nginx,text/html; charset=utf-8,en,SAMEORIGIN,nosniff,1; mode=block,"Sun, 15 Nov 2020 12:29:34 GMT",max-age=300,max-age=31536000; includeSubDomains; preload,https://code.djangoproject.com,bytes,"Sun, 15 Nov 2020 12:24:34 GMT",1.1 varnish,0,cache-vie21651-VIE,MISS,0,"S1605443074.132842,VS0,VE471","Accept-Language, Accept-Encoding","text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",en,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36","gzip, deflate",NA,NA,,,,,,,,
+https://docs.djangoproject.com/en/dev/internals/security/#reporting-security-issues,Django’s security policies | Django documentation | Django,"width=device-width, initial-scale=1",utf-8,Django’s security policies@@Additional Information@@Django Links,Reporting security issues@@Supported versions@@How Django discloses security issues@@Who receives advance notification@@Requesting notifications@@Support Django!@@Contents@@Browse@@You are here:@@Getting help@@Download:@@Learn More@@Get Involved@@Follow Us@@Support Us,NA,NA,"The web framework for perfectionists with deadlines. 
            Overview 
          
            Download 
@@ -1017,7 +1017,7 @@ approve your request.
         Foundation  and individual contributors. Django is a
          registered
         trademark  of the Django Software Foundation.
-      ",29534,180,docs.djangoproject.com,0.45857810974121005,,,,,1,200,https://www.djangoproject.com/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/download/@@https://docs.djangoproject.com/@@https://www.djangoproject.com/weblog/@@https://www.djangoproject.com/community/@@https://github.com/django/django@@https://code.djangoproject.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/fundraising/@@https://docs.djangoproject.com/en/dev/@@https://docs.djangoproject.com/en/dev/faq/help/@@https://docs.djangoproject.com/en/1.8/internals/security/@@https://docs.djangoproject.com/en/1.10/internals/security/@@https://docs.djangoproject.com/en/1.11/internals/security/@@https://docs.djangoproject.com/en/2.0/internals/security/@@https://docs.djangoproject.com/en/2.1/internals/security/@@https://docs.djangoproject.com/en/2.2/internals/security/@@https://docs.djangoproject.com/en/3.0/internals/security/@@https://docs.djangoproject.com/en/3.1/internals/security/@@https://docs.djangoproject.com/en/dev/internals/security/#django-s-security-policies@@https://docs.djangoproject.com/en/dev/internals/security/#reporting-security-issues@@https://code.djangoproject.com/query@@https://www.djangoproject.com/foundation/teams/#security-team@@https://docs.djangoproject.com/en/dev/internals/security/#supported-versions@@https://github.com/django/django/@@https://docs.djangoproject.com/en/dev/internals/security/#security-disclosure@@https://docs.djangoproject.com/en/dev/internals/release-process/#term-long-term-support-release@@https://docs.djangoproject.com/en/dev/internals/security/#how-django-discloses-security-issues@@https://docs.djangoproject.com/en/dev/internals/mailing-lists/#django-announce-mailing-list@@https://docs.djangoproject.com/en/dev/internals/security/#security-notifications@@https://www.djangoproject.com/foundation/teams/#releasers-team@@https://pypi.org/@@https://www.djangoproject.com/weblog/@@https://docs.djangoproject.com/en/dev/releases/security/@@https://docs.djangoproject.com/en/dev/internals/security/#who-receives-advance-notification@@https://docs.djangoproject.com/en/dev/internals/security/#requesting-notifications@@https://docs.djangoproject.com/en/dev/internals/organization/@@https://docs.djangoproject.com/en/dev/internals/release-process/@@https://docs.djangoproject.com/en/dev/internals/security/#top@@https://www.djangoproject.com/fundraising/@@https://docs.djangoproject.com/en/dev/internals/security/@@https://docs.djangoproject.com/en/dev/internals/security/#reporting-security-issues@@https://docs.djangoproject.com/en/dev/internals/security/#supported-versions@@https://docs.djangoproject.com/en/dev/internals/security/#how-django-discloses-security-issues@@https://docs.djangoproject.com/en/dev/internals/security/#who-receives-advance-notification@@https://docs.djangoproject.com/en/dev/internals/security/#requesting-notifications@@https://docs.djangoproject.com/en/dev/internals/organization/@@https://docs.djangoproject.com/en/dev/internals/release-process/@@https://docs.djangoproject.com/en/dev/contents/@@https://docs.djangoproject.com/en/dev/genindex/@@https://docs.djangoproject.com/en/dev/py-modindex/@@https://docs.djangoproject.com/en/dev/@@https://docs.djangoproject.com/en/dev/internals/@@https://docs.djangoproject.com/en/dev/faq/@@https://docs.djangoproject.com/en/stable/genindex/@@https://docs.djangoproject.com/en/stable/py-modindex/@@https://docs.djangoproject.com/en/stable/contents/@@https://groups.google.com/group/django-users/@@https://code.djangoproject.com/@@https://media.readthedocs.org/epub/django/latest/django.epub@@https://readthedocs.org/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/start/@@https://docs.djangoproject.com/en/dev/internals/organization/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/conduct/@@https://www.djangoproject.com/diversity/@@https://www.djangoproject.com/community/@@https://docs.djangoproject.com/en/dev/internals/contributing/@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/@@https://docs.djangoproject.com/en/dev/internals/security/#reporting-security-issues@@https://github.com/django@@https://twitter.com/djangoproject@@https://www.djangoproject.com/rss/weblog/@@https://groups.google.com/forum/#!forum/django-users@@https://www.djangoproject.com/fundraising/@@https://django.threadless.com/@@https://docs.djangoproject.com/foundation/donate/#amazon-smile@@https://docs.djangoproject.com/foundation/donate/#benevity-giving@@https://www.rackspace.com@@https://www.threespot.com@@http://andrevv.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/trademarks/,"Django@@Overview@@Download@@Documentation@@News@@Community@@Code@@Issues@@About@@♥ Donate@@Documentation@@
+      ",29534,180,docs.djangoproject.com,0.45857811,0,0,NA,NA,1,200,https://www.djangoproject.com/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/download/@@https://docs.djangoproject.com/@@https://www.djangoproject.com/weblog/@@https://www.djangoproject.com/community/@@https://github.com/django/django@@https://code.djangoproject.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/fundraising/@@https://docs.djangoproject.com/en/dev/@@https://docs.djangoproject.com/en/dev/faq/help/@@https://docs.djangoproject.com/en/1.8/internals/security/@@https://docs.djangoproject.com/en/1.10/internals/security/@@https://docs.djangoproject.com/en/1.11/internals/security/@@https://docs.djangoproject.com/en/2.0/internals/security/@@https://docs.djangoproject.com/en/2.1/internals/security/@@https://docs.djangoproject.com/en/2.2/internals/security/@@https://docs.djangoproject.com/en/3.0/internals/security/@@https://docs.djangoproject.com/en/3.1/internals/security/@@https://docs.djangoproject.com/en/dev/internals/security/#django-s-security-policies@@https://docs.djangoproject.com/en/dev/internals/security/#reporting-security-issues@@https://code.djangoproject.com/query@@https://www.djangoproject.com/foundation/teams/#security-team@@https://docs.djangoproject.com/en/dev/internals/security/#supported-versions@@https://github.com/django/django/@@https://docs.djangoproject.com/en/dev/internals/security/#security-disclosure@@https://docs.djangoproject.com/en/dev/internals/release-process/#term-long-term-support-release@@https://docs.djangoproject.com/en/dev/internals/security/#how-django-discloses-security-issues@@https://docs.djangoproject.com/en/dev/internals/mailing-lists/#django-announce-mailing-list@@https://docs.djangoproject.com/en/dev/internals/security/#security-notifications@@https://www.djangoproject.com/foundation/teams/#releasers-team@@https://pypi.org/@@https://www.djangoproject.com/weblog/@@https://docs.djangoproject.com/en/dev/releases/security/@@https://docs.djangoproject.com/en/dev/internals/security/#who-receives-advance-notification@@https://docs.djangoproject.com/en/dev/internals/security/#requesting-notifications@@https://docs.djangoproject.com/en/dev/internals/organization/@@https://docs.djangoproject.com/en/dev/internals/release-process/@@https://docs.djangoproject.com/en/dev/internals/security/#top@@https://www.djangoproject.com/fundraising/@@https://docs.djangoproject.com/en/dev/internals/security/@@https://docs.djangoproject.com/en/dev/internals/security/#reporting-security-issues@@https://docs.djangoproject.com/en/dev/internals/security/#supported-versions@@https://docs.djangoproject.com/en/dev/internals/security/#how-django-discloses-security-issues@@https://docs.djangoproject.com/en/dev/internals/security/#who-receives-advance-notification@@https://docs.djangoproject.com/en/dev/internals/security/#requesting-notifications@@https://docs.djangoproject.com/en/dev/internals/organization/@@https://docs.djangoproject.com/en/dev/internals/release-process/@@https://docs.djangoproject.com/en/dev/contents/@@https://docs.djangoproject.com/en/dev/genindex/@@https://docs.djangoproject.com/en/dev/py-modindex/@@https://docs.djangoproject.com/en/dev/@@https://docs.djangoproject.com/en/dev/internals/@@https://docs.djangoproject.com/en/dev/faq/@@https://docs.djangoproject.com/en/stable/genindex/@@https://docs.djangoproject.com/en/stable/py-modindex/@@https://docs.djangoproject.com/en/stable/contents/@@https://groups.google.com/group/django-users/@@https://code.djangoproject.com/@@https://media.readthedocs.org/epub/django/latest/django.epub@@https://readthedocs.org/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/start/@@https://docs.djangoproject.com/en/dev/internals/organization/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/conduct/@@https://www.djangoproject.com/diversity/@@https://www.djangoproject.com/community/@@https://docs.djangoproject.com/en/dev/internals/contributing/@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/@@https://docs.djangoproject.com/en/dev/internals/security/#reporting-security-issues@@https://github.com/django@@https://twitter.com/djangoproject@@https://www.djangoproject.com/rss/weblog/@@https://groups.google.com/forum/#!forum/django-users@@https://www.djangoproject.com/fundraising/@@https://django.threadless.com/@@https://docs.djangoproject.com/foundation/donate/#amazon-smile@@https://docs.djangoproject.com/foundation/donate/#benevity-giving@@https://www.rackspace.com@@https://www.threespot.com@@http://andrevv.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/trademarks/,"Django@@Overview@@Download@@Documentation@@News@@Community@@Code@@Issues@@About@@♥ Donate@@Documentation@@
         Getting Help
       @@1.8@@1.10@@1.11@@2.0@@2.1@@2.2@@3.0@@3.1@@¶@@¶@@our public Trac instance@@security
 team@@¶@@master development branch@@disclosure process@@Long-term support release@@¶@@django-announce@@people and organizations@@Django’s release team@@the
@@ -1027,8 +1027,8 @@ disclosed in Django@@¶@@¶@@ Organization of the Django Project@@Django’s rel
           support Django development. Donate today!
         @@Django’s security policies@@Reporting security issues@@Supported versions@@How Django discloses security issues@@Who receives advance notification@@Requesting notifications@@Organization of the Django Project@@Django’s release process@@Table of contents@@General Index@@Python Module Index@@Django dev documentation@@Django internals@@FAQ@@Index@@Module Index@@Table of Contents@@django-users mailing list@@Ticket tracker@@ePub@@Read the Docs@@About Django@@Getting Started with Django@@Team Organization@@Django Software Foundation@@Code of Conduct@@Diversity Statement@@Join a Group@@Contribute to Django@@Submit a Bug@@Report a Security Issue@@GitHub@@Twitter@@News RSS@@Django Users Mailing List@@Sponsor Django@@Official merchandise store@@Amazon Smile@@Benevity Workplace Giving Program@@Rackspace@@Threespot@@@@ Django Software
         Foundation@@registered
-        trademark",False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False,https://static.djangoproject.com/img/fundraising-heart.cd6bb84ffd33.svg,Support Django!,199.232.18.217,2020-11-15 12:24:34,nginx,text/html; charset=utf-8,,SAMEORIGIN,nosniff,1; mode=block,"Sat, 14 Nov 2020 21:48:06 GMT",max-age=300,max-age=31536000; includeSubDomains; preload,https://code.djangoproject.com,bytes,"Sun, 15 Nov 2020 12:24:34 GMT",1.1 varnish,52888.0,cache-vie21643-VIE,HIT,1,"S1605443075.633690,VS0,VE1",Accept-Encoding,"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",en,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36","gzip, deflate",https://docs.djangoproject.com/en/dev/internals/security/,https://docs.djangoproject.com/en/dev/internals/security/,en,https://www.djangoproject.com/,,,,,,
-https://docs.djangoproject.com/en/dev/internals/contributing/,Contributing to Django | Django documentation | Django,"width=device-width, initial-scale=1",utf-8,Contributing to Django@@Additional Information@@Django Links,Support Django!@@Contents@@Browse@@You are here:@@Getting help@@Download:@@Learn More@@Get Involved@@Follow Us@@Support Us,,,"The web framework for perfectionists with deadlines. 
+        trademark",False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False,https://static.djangoproject.com/img/fundraising-heart.cd6bb84ffd33.svg,Support Django!,199.232.18.217,15-11-2020 12:24,nginx,text/html; charset=utf-8,,SAMEORIGIN,nosniff,1; mode=block,"Sat, 14 Nov 2020 21:48:06 GMT",max-age=300,max-age=31536000; includeSubDomains; preload,https://code.djangoproject.com,bytes,"Sun, 15 Nov 2020 12:24:34 GMT",1.1 varnish,52888,cache-vie21643-VIE,HIT,1,"S1605443075.633690,VS0,VE1",Accept-Encoding,"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",en,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36","gzip, deflate",https://docs.djangoproject.com/en/dev/internals/security/,NA,,,,,,,,
+https://docs.djangoproject.com/en/dev/internals/contributing/,Contributing to Django | Django documentation | Django,"width=device-width, initial-scale=1",utf-8,Contributing to Django@@Additional Information@@Django Links,Support Django!@@Contents@@Browse@@You are here:@@Getting help@@Download:@@Learn More@@Get Involved@@Follow Us@@Support Us,NA,NA,"The web framework for perfectionists with deadlines. 
            Overview 
          
            Download 
@@ -1201,15 +1201,15 @@ other users. Really,  ANYONE  can do something to help make Django better and gr
         Foundation  and individual contributors. Django is a
          registered
         trademark  of the Django Software Foundation.
-      ",25590,180,docs.djangoproject.com,0.48292303085327104,,,,,1,200,https://www.djangoproject.com/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/download/@@https://docs.djangoproject.com/@@https://www.djangoproject.com/weblog/@@https://www.djangoproject.com/community/@@https://github.com/django/django@@https://code.djangoproject.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/fundraising/@@https://docs.djangoproject.com/en/dev/@@https://docs.djangoproject.com/en/dev/faq/help/@@https://docs.djangoproject.com/en/1.8/internals/contributing/@@https://docs.djangoproject.com/en/1.10/internals/contributing/@@https://docs.djangoproject.com/en/1.11/internals/contributing/@@https://docs.djangoproject.com/en/2.0/internals/contributing/@@https://docs.djangoproject.com/en/2.1/internals/contributing/@@https://docs.djangoproject.com/en/2.2/internals/contributing/@@https://docs.djangoproject.com/en/3.0/internals/contributing/@@https://docs.djangoproject.com/en/3.1/internals/contributing/@@https://docs.djangoproject.com/en/dev/internals/contributing/#contributing-to-django@@https://forum.djangoproject.com/@@https://docs.djangoproject.com/en/dev/internals/mailing-lists/#django-users-mailing-list@@https://code.djangoproject.com/wiki/UsingTheMailingList@@https://webchat.freenode.net/#django@@https://www.djangoproject.com/community/@@https://www.djangoproject.com/community/add/blogs/@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/@@https://code.djangoproject.com/@@https://docs.djangoproject.com/en/dev/internals/mailing-lists/#django-developers-mailing-list@@https://webchat.freenode.net/#django-dev@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/submitting-patches/@@https://docs.djangoproject.com/en/dev/intro/contributing/@@https://code.djangoproject.com/query?status=!closed&easy=1@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/submitting-patches/#patch-review-checklist@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/unit-tests/@@https://docs.djangoproject.com/en/dev/internals/contributing/triaging-tickets/@@https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/@@https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/#first-steps@@https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/#guidelines@@https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/#faq@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/#reporting-bugs@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/#reporting-user-interface-bugs-and-features@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/#requesting-features@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/#how-we-make-decisions@@https://docs.djangoproject.com/en/dev/internals/contributing/triaging-tickets/@@https://docs.djangoproject.com/en/dev/internals/contributing/triaging-tickets/#triage-workflow@@https://docs.djangoproject.com/en/dev/internals/contributing/triaging-tickets/#triage-stages@@https://docs.djangoproject.com/en/dev/internals/contributing/triaging-tickets/#other-triage-attributes@@https://docs.djangoproject.com/en/dev/internals/contributing/triaging-tickets/#closing-tickets@@https://docs.djangoproject.com/en/dev/internals/contributing/triaging-tickets/#how-can-i-help-with-triaging@@https://docs.djangoproject.com/en/dev/internals/contributing/triaging-tickets/#bisecting-a-regression@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/unit-tests/@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/submitting-patches/@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/working-with-git/@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/javascript/@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#getting-the-raw-documentation@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#getting-started-with-sphinx@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#how-the-documentation-is-organized@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#writing-style@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#commonly-used-terms@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#django-specific-terminology@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#guidelines-for-restructuredtext-files@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#django-specific-markup@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#documenting-new-features@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#minimizing-images@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#an-example@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#spelling-check@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#translating-documentation@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#django-admin-man-page@@https://docs.djangoproject.com/en/dev/internals/contributing/localizing/@@https://docs.djangoproject.com/en/dev/internals/contributing/localizing/#translations@@https://docs.djangoproject.com/en/dev/internals/contributing/localizing/#formats@@https://docs.djangoproject.com/en/dev/internals/contributing/localizing/#documentation@@https://docs.djangoproject.com/en/dev/internals/contributing/committing-code/@@https://docs.djangoproject.com/en/dev/internals/contributing/committing-code/#handling-pull-requests@@https://docs.djangoproject.com/en/dev/internals/contributing/committing-code/#committing-guidelines@@https://docs.djangoproject.com/en/dev/internals/contributing/committing-code/#reverting-commits@@https://docs.djangoproject.com/en/dev/internals/@@https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/@@https://docs.djangoproject.com/en/dev/internals/contributing/#top@@https://www.djangoproject.com/fundraising/@@https://docs.djangoproject.com/en/dev/internals/contributing/@@https://docs.djangoproject.com/en/dev/internals/@@https://docs.djangoproject.com/en/dev/contents/@@https://docs.djangoproject.com/en/dev/genindex/@@https://docs.djangoproject.com/en/dev/py-modindex/@@https://docs.djangoproject.com/en/dev/@@https://docs.djangoproject.com/en/dev/faq/@@https://docs.djangoproject.com/en/stable/genindex/@@https://docs.djangoproject.com/en/stable/py-modindex/@@https://docs.djangoproject.com/en/stable/contents/@@https://groups.google.com/group/django-users/@@https://code.djangoproject.com/@@https://media.readthedocs.org/epub/django/latest/django.epub@@https://readthedocs.org/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/start/@@https://docs.djangoproject.com/en/dev/internals/organization/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/conduct/@@https://www.djangoproject.com/diversity/@@https://www.djangoproject.com/community/@@https://docs.djangoproject.com/en/dev/internals/contributing/@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/@@https://docs.djangoproject.com/en/dev/internals/security/#reporting-security-issues@@https://github.com/django@@https://twitter.com/djangoproject@@https://www.djangoproject.com/rss/weblog/@@https://groups.google.com/forum/#!forum/django-users@@https://www.djangoproject.com/fundraising/@@https://django.threadless.com/@@https://docs.djangoproject.com/foundation/donate/#amazon-smile@@https://docs.djangoproject.com/foundation/donate/#benevity-giving@@https://www.rackspace.com@@https://www.threespot.com@@http://andrevv.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/trademarks/,"Django@@Overview@@Download@@Documentation@@News@@Community@@Code@@Issues@@About@@♥ Donate@@Documentation@@
+      ",25590,180,docs.djangoproject.com,0.482923031,0,0,NA,NA,1,200,https://www.djangoproject.com/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/download/@@https://docs.djangoproject.com/@@https://www.djangoproject.com/weblog/@@https://www.djangoproject.com/community/@@https://github.com/django/django@@https://code.djangoproject.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/fundraising/@@https://docs.djangoproject.com/en/dev/@@https://docs.djangoproject.com/en/dev/faq/help/@@https://docs.djangoproject.com/en/1.8/internals/contributing/@@https://docs.djangoproject.com/en/1.10/internals/contributing/@@https://docs.djangoproject.com/en/1.11/internals/contributing/@@https://docs.djangoproject.com/en/2.0/internals/contributing/@@https://docs.djangoproject.com/en/2.1/internals/contributing/@@https://docs.djangoproject.com/en/2.2/internals/contributing/@@https://docs.djangoproject.com/en/3.0/internals/contributing/@@https://docs.djangoproject.com/en/3.1/internals/contributing/@@https://docs.djangoproject.com/en/dev/internals/contributing/#contributing-to-django@@https://forum.djangoproject.com/@@https://docs.djangoproject.com/en/dev/internals/mailing-lists/#django-users-mailing-list@@https://code.djangoproject.com/wiki/UsingTheMailingList@@https://webchat.freenode.net/#django@@https://www.djangoproject.com/community/@@https://www.djangoproject.com/community/add/blogs/@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/@@https://code.djangoproject.com/@@https://docs.djangoproject.com/en/dev/internals/mailing-lists/#django-developers-mailing-list@@https://webchat.freenode.net/#django-dev@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/submitting-patches/@@https://docs.djangoproject.com/en/dev/intro/contributing/@@https://code.djangoproject.com/query?status=!closed&easy=1@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/submitting-patches/#patch-review-checklist@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/unit-tests/@@https://docs.djangoproject.com/en/dev/internals/contributing/triaging-tickets/@@https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/@@https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/#first-steps@@https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/#guidelines@@https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/#faq@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/#reporting-bugs@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/#reporting-user-interface-bugs-and-features@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/#requesting-features@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/#how-we-make-decisions@@https://docs.djangoproject.com/en/dev/internals/contributing/triaging-tickets/@@https://docs.djangoproject.com/en/dev/internals/contributing/triaging-tickets/#triage-workflow@@https://docs.djangoproject.com/en/dev/internals/contributing/triaging-tickets/#triage-stages@@https://docs.djangoproject.com/en/dev/internals/contributing/triaging-tickets/#other-triage-attributes@@https://docs.djangoproject.com/en/dev/internals/contributing/triaging-tickets/#closing-tickets@@https://docs.djangoproject.com/en/dev/internals/contributing/triaging-tickets/#how-can-i-help-with-triaging@@https://docs.djangoproject.com/en/dev/internals/contributing/triaging-tickets/#bisecting-a-regression@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/unit-tests/@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/submitting-patches/@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/working-with-git/@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/javascript/@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#getting-the-raw-documentation@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#getting-started-with-sphinx@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#how-the-documentation-is-organized@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#writing-style@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#commonly-used-terms@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#django-specific-terminology@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#guidelines-for-restructuredtext-files@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#django-specific-markup@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#documenting-new-features@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#minimizing-images@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#an-example@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#spelling-check@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#translating-documentation@@https://docs.djangoproject.com/en/dev/internals/contributing/writing-documentation/#django-admin-man-page@@https://docs.djangoproject.com/en/dev/internals/contributing/localizing/@@https://docs.djangoproject.com/en/dev/internals/contributing/localizing/#translations@@https://docs.djangoproject.com/en/dev/internals/contributing/localizing/#formats@@https://docs.djangoproject.com/en/dev/internals/contributing/localizing/#documentation@@https://docs.djangoproject.com/en/dev/internals/contributing/committing-code/@@https://docs.djangoproject.com/en/dev/internals/contributing/committing-code/#handling-pull-requests@@https://docs.djangoproject.com/en/dev/internals/contributing/committing-code/#committing-guidelines@@https://docs.djangoproject.com/en/dev/internals/contributing/committing-code/#reverting-commits@@https://docs.djangoproject.com/en/dev/internals/@@https://docs.djangoproject.com/en/dev/internals/contributing/new-contributors/@@https://docs.djangoproject.com/en/dev/internals/contributing/#top@@https://www.djangoproject.com/fundraising/@@https://docs.djangoproject.com/en/dev/internals/contributing/@@https://docs.djangoproject.com/en/dev/internals/@@https://docs.djangoproject.com/en/dev/contents/@@https://docs.djangoproject.com/en/dev/genindex/@@https://docs.djangoproject.com/en/dev/py-modindex/@@https://docs.djangoproject.com/en/dev/@@https://docs.djangoproject.com/en/dev/faq/@@https://docs.djangoproject.com/en/stable/genindex/@@https://docs.djangoproject.com/en/stable/py-modindex/@@https://docs.djangoproject.com/en/stable/contents/@@https://groups.google.com/group/django-users/@@https://code.djangoproject.com/@@https://media.readthedocs.org/epub/django/latest/django.epub@@https://readthedocs.org/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/start/@@https://docs.djangoproject.com/en/dev/internals/organization/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/conduct/@@https://www.djangoproject.com/diversity/@@https://www.djangoproject.com/community/@@https://docs.djangoproject.com/en/dev/internals/contributing/@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/@@https://docs.djangoproject.com/en/dev/internals/security/#reporting-security-issues@@https://github.com/django@@https://twitter.com/djangoproject@@https://www.djangoproject.com/rss/weblog/@@https://groups.google.com/forum/#!forum/django-users@@https://www.djangoproject.com/fundraising/@@https://django.threadless.com/@@https://docs.djangoproject.com/foundation/donate/#amazon-smile@@https://docs.djangoproject.com/foundation/donate/#benevity-giving@@https://www.rackspace.com@@https://www.threespot.com@@http://andrevv.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/trademarks/,"Django@@Overview@@Download@@Documentation@@News@@Community@@Code@@Issues@@About@@♥ Donate@@Documentation@@
         Getting Help
       @@1.8@@1.10@@1.11@@2.0@@2.1@@2.2@@3.0@@3.1@@¶@@Django forum@@django-users@@posting guidelines@@#django IRC channel@@community page@@register it here@@Report bugs@@ticket tracker@@django-developers@@#django-dev IRC channel@@Submit patches@@Writing your first patch for Django@@easy pickings@@Patch review checklist@@Improve the documentation@@write unit tests@@Triage tickets and review patches@@Advice for new contributors@@First steps@@Guidelines@@FAQ@@Reporting bugs and requesting features@@Reporting bugs@@Reporting user interface bugs and features@@Requesting features@@How we make decisions@@Triaging tickets@@Triage workflow@@Triage stages@@Other triage attributes@@Closing Tickets@@How can I help with triaging?@@Bisecting a regression@@Writing code@@Coding style@@Unit tests@@Submitting patches@@Working with Git and GitHub@@JavaScript@@Writing documentation@@Getting the raw documentation@@Getting started with Sphinx@@How the documentation is organized@@Writing style@@Commonly used terms@@Django-specific terminology@@Guidelines for reStructuredText files@@Django-specific markup@@Documenting new features@@Minimizing images@@An example@@Spelling check@@Translating documentation@@django-admin man page@@Localizing Django@@Translations@@Formats@@Documentation@@Committing code@@Handling pull requests@@Committing guidelines@@Reverting commits@@ Django internals@@Advice for new contributors @@ Back to Top@@
           TRIDENT Inc. donated to the Django Software Foundation to
           support Django development. Donate today!
         @@Contributing to Django@@Django internals@@Table of contents@@General Index@@Python Module Index@@Django dev documentation@@FAQ@@Index@@Module Index@@Table of Contents@@django-users mailing list@@Ticket tracker@@ePub@@Read the Docs@@About Django@@Getting Started with Django@@Team Organization@@Django Software Foundation@@Code of Conduct@@Diversity Statement@@Join a Group@@Contribute to Django@@Submit a Bug@@Report a Security Issue@@GitHub@@Twitter@@News RSS@@Django Users Mailing List@@Sponsor Django@@Official merchandise store@@Amazon Smile@@Benevity Workplace Giving Program@@Rackspace@@Threespot@@@@ Django Software
         Foundation@@registered
-        trademark",False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False,https://static.djangoproject.com/img/fundraising-heart.cd6bb84ffd33.svg,Support Django!,199.232.18.217,2020-11-15 12:24:34,nginx,text/html; charset=utf-8,,SAMEORIGIN,nosniff,1; mode=block,"Sat, 14 Nov 2020 16:24:47 GMT",max-age=300,max-age=31536000; includeSubDomains; preload,https://code.djangoproject.com,bytes,"Sun, 15 Nov 2020 12:24:34 GMT",1.1 varnish,72287.0,cache-vie21645-VIE,HIT,1,"S1605443075.633218,VS0,VE1",Accept-Encoding,"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",en,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36","gzip, deflate",https://docs.djangoproject.com/en/dev/internals/contributing/,https://docs.djangoproject.com/en/dev/internals/contributing/,en,https://www.djangoproject.com/,,,,,,
-https://www.djangoproject.com/start/,Getting started with Django | Django,"width=device-width, initial-scale=1",utf-8,Get started@@Getting started with Django@@Django Links,Install Django@@Write your first Django app@@Sharpen your skills@@Object-relational mapper@@URLs and views@@Templates@@Forms@@Authentication@@Admin@@Internationalization@@Security@@Learn More@@Get Involved@@Follow Us@@Support Us,,,"The web framework for perfectionists with deadlines. 
+        trademark",False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False,https://static.djangoproject.com/img/fundraising-heart.cd6bb84ffd33.svg,Support Django!,199.232.18.217,15-11-2020 12:24,nginx,text/html; charset=utf-8,,SAMEORIGIN,nosniff,1; mode=block,"Sat, 14 Nov 2020 16:24:47 GMT",max-age=300,max-age=31536000; includeSubDomains; preload,https://code.djangoproject.com,bytes,"Sun, 15 Nov 2020 12:24:34 GMT",1.1 varnish,72287,cache-vie21645-VIE,HIT,1,"S1605443075.633218,VS0,VE1",Accept-Encoding,"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",en,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36","gzip, deflate",https://docs.djangoproject.com/en/dev/internals/contributing/,https://docs.djangoproject.com/en/dev/internals/contributing/,,,,,,,,
+https://www.djangoproject.com/start/,Getting started with Django | Django,"width=device-width, initial-scale=1",utf-8,Get started@@Getting started with Django@@Django Links,Install Django@@Write your first Django app@@Sharpen your skills@@Object-relational mapper@@URLs and views@@Templates@@Forms@@Authentication@@Admin@@Internationalization@@Security@@Learn More@@Get Involved@@Follow Us@@Support Us,NA,NA,"The web framework for perfectionists with deadlines. 
            Overview 
          
            Download 
@@ -1434,10 +1434,10 @@ https://www.djangoproject.com/start/,Getting started with Django | Django,"width
         Foundation  and individual contributors. Django is a
          registered
         trademark  of the Django Software Foundation.
-      ",31209,180,www.djangoproject.com,0.807873964309692,,,,,1,200,https://www.djangoproject.com/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/download/@@https://docs.djangoproject.com/@@https://www.djangoproject.com/weblog/@@https://www.djangoproject.com/community/@@https://github.com/django/django@@https://code.djangoproject.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/fundraising/@@https://www.djangoproject.com/download/@@https://docs.djangoproject.com/en/stable/intro/tutorial01/@@https://docs.djangoproject.com/@@https://www.djangoproject.com/start/overview/@@https://docs.djangoproject.com/en/stable/intro/install/@@https://docs.djangoproject.com/en/stable/intro/tutorial01/@@https://docs.djangoproject.com/en/stable/intro/tutorial01/@@https://docs.djangoproject.com/@@https://docs.djangoproject.com/@@https://www.djangoproject.com/community/@@https://www.djangoproject.com/community/@@https://docs.djangoproject.com/en/stable/topics/db/models/@@https://docs.djangoproject.com/en/stable/topics/http/urls/@@https://docs.djangoproject.com/en/stable/topics/templates/@@https://docs.djangoproject.com/en/stable/topics/forms/@@https://docs.djangoproject.com/en/stable/topics/auth/@@https://docs.djangoproject.com/en/stable/ref/contrib/admin/@@https://docs.djangoproject.com/en/stable/topics/i18n/@@https://docs.djangoproject.com/en/stable/topics/security/@@https://www.djangoproject.com/start/#top@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/start/@@https://docs.djangoproject.com/en/dev/internals/organization/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/conduct/@@https://www.djangoproject.com/diversity/@@https://www.djangoproject.com/community/@@https://docs.djangoproject.com/en/dev/internals/contributing/@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/@@https://docs.djangoproject.com/en/dev/internals/security/#reporting-security-issues@@https://github.com/django@@https://twitter.com/djangoproject@@https://www.djangoproject.com/rss/weblog/@@https://groups.google.com/forum/#!forum/django-users@@https://www.djangoproject.com/fundraising/@@https://django.threadless.com/@@https://www.djangoproject.com/foundation/donate/#amazon-smile@@https://www.djangoproject.com/foundation/donate/#benevity-giving@@https://www.rackspace.com@@https://www.threespot.com@@http://andrevv.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/trademarks/,"Django@@Overview@@Download@@Documentation@@News@@Community@@Code@@Issues@@About@@♥ Donate@@Download version 3.1.3@@try a tutorial@@dive into the documentation@@Django overview@@Django installation guide@@try this tutorial@@Take the tutorial@@Django documentation@@Read the docs@@make us better@@Join us@@Read more@@Read more@@Read more@@Read more@@Read more@@Read more@@Read more@@Read more@@ Back to Top@@About Django@@Getting Started with Django@@Team Organization@@Django Software Foundation@@Code of Conduct@@Diversity Statement@@Join a Group@@Contribute to Django@@Submit a Bug@@Report a Security Issue@@GitHub@@Twitter@@News RSS@@Django Users Mailing List@@Sponsor Django@@Official merchandise store@@Amazon Smile@@Benevity Workplace Giving Program@@Rackspace@@Threespot@@@@ Django Software
+      ",31209,180,www.djangoproject.com,0.807873964,0,0,NA,NA,1,200,https://www.djangoproject.com/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/download/@@https://docs.djangoproject.com/@@https://www.djangoproject.com/weblog/@@https://www.djangoproject.com/community/@@https://github.com/django/django@@https://code.djangoproject.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/fundraising/@@https://www.djangoproject.com/download/@@https://docs.djangoproject.com/en/stable/intro/tutorial01/@@https://docs.djangoproject.com/@@https://www.djangoproject.com/start/overview/@@https://docs.djangoproject.com/en/stable/intro/install/@@https://docs.djangoproject.com/en/stable/intro/tutorial01/@@https://docs.djangoproject.com/en/stable/intro/tutorial01/@@https://docs.djangoproject.com/@@https://docs.djangoproject.com/@@https://www.djangoproject.com/community/@@https://www.djangoproject.com/community/@@https://docs.djangoproject.com/en/stable/topics/db/models/@@https://docs.djangoproject.com/en/stable/topics/http/urls/@@https://docs.djangoproject.com/en/stable/topics/templates/@@https://docs.djangoproject.com/en/stable/topics/forms/@@https://docs.djangoproject.com/en/stable/topics/auth/@@https://docs.djangoproject.com/en/stable/ref/contrib/admin/@@https://docs.djangoproject.com/en/stable/topics/i18n/@@https://docs.djangoproject.com/en/stable/topics/security/@@https://www.djangoproject.com/start/#top@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/start/@@https://docs.djangoproject.com/en/dev/internals/organization/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/conduct/@@https://www.djangoproject.com/diversity/@@https://www.djangoproject.com/community/@@https://docs.djangoproject.com/en/dev/internals/contributing/@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/@@https://docs.djangoproject.com/en/dev/internals/security/#reporting-security-issues@@https://github.com/django@@https://twitter.com/djangoproject@@https://www.djangoproject.com/rss/weblog/@@https://groups.google.com/forum/#!forum/django-users@@https://www.djangoproject.com/fundraising/@@https://django.threadless.com/@@https://www.djangoproject.com/foundation/donate/#amazon-smile@@https://www.djangoproject.com/foundation/donate/#benevity-giving@@https://www.rackspace.com@@https://www.threespot.com@@http://andrevv.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/trademarks/,"Django@@Overview@@Download@@Documentation@@News@@Community@@Code@@Issues@@About@@♥ Donate@@Download version 3.1.3@@try a tutorial@@dive into the documentation@@Django overview@@Django installation guide@@try this tutorial@@Take the tutorial@@Django documentation@@Read the docs@@make us better@@Join us@@Read more@@Read more@@Read more@@Read more@@Read more@@Read more@@Read more@@Read more@@ Back to Top@@About Django@@Getting Started with Django@@Team Organization@@Django Software Foundation@@Code of Conduct@@Diversity Statement@@Join a Group@@Contribute to Django@@Submit a Bug@@Report a Security Issue@@GitHub@@Twitter@@News RSS@@Django Users Mailing List@@Sponsor Django@@Official merchandise store@@Amazon Smile@@Benevity Workplace Giving Program@@Rackspace@@Threespot@@@@ Django Software
         Foundation@@registered
-        trademark",False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False,,,199.232.18.217,2020-11-15 12:24:34,nginx,text/html; charset=utf-8,en,SAMEORIGIN,nosniff,1; mode=block,"Sun, 15 Nov 2020 12:27:08 GMT",max-age=300,max-age=31536000; includeSubDomains; preload,https://code.djangoproject.com,bytes,"Sun, 15 Nov 2020 12:24:34 GMT",1.1 varnish,0.0,cache-vie21649-VIE,MISS,0,"S1605443074.121872,VS0,VE550","Accept-Language, Accept-Encoding","text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",en,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36","gzip, deflate",,,,https://www.djangoproject.com/,,,,,,
-https://www.djangoproject.com/download/,Download Django | Django,"width=device-width, initial-scale=1",utf-8,Download@@How to get Django@@Additional information@@Django Links,Option 1: Get the latest official version@@Option 2: Get the latest development version@@After you get it@@Supported Versions@@Support Django!@@For the impatient:@@Which version is better?@@Previous releases@@Unsupported previous releases (no longer receive security updates or bug fixes)@@Learn More@@Get Involved@@Follow Us@@Support Us,,,"The web framework for perfectionists with deadlines. 
+        trademark",False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False,,,199.232.18.217,15-11-2020 12:24,nginx,text/html; charset=utf-8,en,SAMEORIGIN,nosniff,1; mode=block,"Sun, 15 Nov 2020 12:27:08 GMT",max-age=300,max-age=31536000; includeSubDomains; preload,https://code.djangoproject.com,bytes,"Sun, 15 Nov 2020 12:24:34 GMT",1.1 varnish,0,cache-vie21649-VIE,MISS,0,"S1605443074.121872,VS0,VE550","Accept-Language, Accept-Encoding","text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",en,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36","gzip, deflate",NA,NA,,,,,,,,
+https://www.djangoproject.com/download/,Download Django | Django,"width=device-width, initial-scale=1",utf-8,Download@@How to get Django@@Additional information@@Django Links,Option 1: Get the latest official version@@Option 2: Get the latest development version@@After you get it@@Supported Versions@@Support Django!@@For the impatient:@@Which version is better?@@Previous releases@@Unsupported previous releases (no longer receive security updates or bug fixes)@@Learn More@@Get Involved@@Follow Us@@Support Us,NA,NA,"The web framework for perfectionists with deadlines. 
            Overview 
          
            Download 
@@ -1561,7 +1561,7 @@ https://www.djangoproject.com/download/,Download Django | Django,"width=device-w
         Foundation  and individual contributors. Django is a
          registered
         trademark  of the Django Software Foundation.
-      ",22830,180,www.djangoproject.com,0.7737216949462891,,,,,1,200,https://www.djangoproject.com/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/download/@@https://docs.djangoproject.com/@@https://www.djangoproject.com/weblog/@@https://www.djangoproject.com/community/@@https://github.com/django/django@@https://code.djangoproject.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/fundraising/@@https://github.com/django/django/blob/master/LICENSE@@https://docs.djangoproject.com/en/dev/faq/install/#what-python-version-can-i-use-with-django@@https://docs.djangoproject.com/en/3.1/releases/3.1.3/@@https://pip.pypa.io/en/latest/@@https://git-scm.com/@@https://github.com/django/django/archive/master.tar.gz@@https://docs.djangoproject.com/en/stable/intro/install/@@https://groups.google.com/group/django-users@@https://docs.djangoproject.com/en/dev/internals/release-process/#supported-versions@@https://www.djangoproject.com/download/#ft1@@https://www.djangoproject.com/download/#ft2@@https://www.djangoproject.com/download/#ft3@@https://www.djangoproject.com/download/#top@@https://www.djangoproject.com/fundraising/@@https://www.djangoproject.com/download/3.1.3/tarball/@@https://www.djangoproject.com/download/3.1.3/checksum/@@https://docs.djangoproject.com/en/3.1/releases/3.1.3/@@https://github.com/django/django@@https://groups.google.com/group/django-updates@@https://www.djangoproject.com/download/3.0.11/tarball/@@https://www.djangoproject.com/download/3.0.11/checksum/@@https://docs.djangoproject.com/en/3.0/releases/3.0.11/@@https://www.djangoproject.com/download/2.2.17/tarball/@@https://www.djangoproject.com/download/2.2.17/checksum/@@https://docs.djangoproject.com/en/2.2/releases/2.2.17/@@https://www.djangoproject.com/download/2.1.15/tarball/@@https://www.djangoproject.com/download/2.1.15/checksum/@@https://www.djangoproject.com/download/2.0.13/tarball/@@https://www.djangoproject.com/download/2.0.13/checksum/@@https://www.djangoproject.com/download/1.11.29/tarball/@@https://www.djangoproject.com/download/1.11.29/checksum/@@https://www.djangoproject.com/download/1.10.8/tarball/@@https://www.djangoproject.com/download/1.10.8/checksum/@@https://www.djangoproject.com/download/1.9.13/tarball/@@https://www.djangoproject.com/download/1.9.13/checksum/@@https://www.djangoproject.com/download/1.8.19/tarball/@@https://www.djangoproject.com/download/1.8.19/checksum/@@https://www.djangoproject.com/download/1.7.11/tarball/@@https://www.djangoproject.com/download/1.7.11/checksum/@@https://www.djangoproject.com/download/1.6.11/tarball/@@https://www.djangoproject.com/download/1.6.11/checksum/@@https://www.djangoproject.com/download/1.5.12/tarball/@@https://www.djangoproject.com/download/1.5.12/checksum/@@https://www.djangoproject.com/download/1.4.22/tarball/@@https://www.djangoproject.com/download/1.4.22/checksum/@@https://www.djangoproject.com/download/1.3.7/tarball/@@https://www.djangoproject.com/download/1.3.7/checksum/@@https://www.djangoproject.com/download/1.2.7/tarball/@@https://www.djangoproject.com/download/1.2.7/checksum/@@https://www.djangoproject.com/download/1.1.4/tarball/@@https://www.djangoproject.com/download/1.1.4/checksum/@@https://www.djangoproject.com/download/1.0.4/tarball/@@https://www.djangoproject.com/download/1.0.4/checksum/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/start/@@https://docs.djangoproject.com/en/dev/internals/organization/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/conduct/@@https://www.djangoproject.com/diversity/@@https://www.djangoproject.com/community/@@https://docs.djangoproject.com/en/dev/internals/contributing/@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/@@https://docs.djangoproject.com/en/dev/internals/security/#reporting-security-issues@@https://github.com/django@@https://twitter.com/djangoproject@@https://www.djangoproject.com/rss/weblog/@@https://groups.google.com/forum/#!forum/django-users@@https://www.djangoproject.com/fundraising/@@https://django.threadless.com/@@https://www.djangoproject.com/foundation/donate/#amazon-smile@@https://www.djangoproject.com/foundation/donate/#benevity-giving@@https://www.rackspace.com@@https://www.threespot.com@@http://andrevv.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/trademarks/,"Django@@Overview@@Download@@Documentation@@News@@Community@@Code@@Issues@@About@@♥ Donate@@BSD license@@
+      ",22830,180,www.djangoproject.com,0.773721695,0,0,NA,NA,1,200,https://www.djangoproject.com/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/download/@@https://docs.djangoproject.com/@@https://www.djangoproject.com/weblog/@@https://www.djangoproject.com/community/@@https://github.com/django/django@@https://code.djangoproject.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/fundraising/@@https://github.com/django/django/blob/master/LICENSE@@https://docs.djangoproject.com/en/dev/faq/install/#what-python-version-can-i-use-with-django@@https://docs.djangoproject.com/en/3.1/releases/3.1.3/@@https://pip.pypa.io/en/latest/@@https://git-scm.com/@@https://github.com/django/django/archive/master.tar.gz@@https://docs.djangoproject.com/en/stable/intro/install/@@https://groups.google.com/group/django-users@@https://docs.djangoproject.com/en/dev/internals/release-process/#supported-versions@@https://www.djangoproject.com/download/#ft1@@https://www.djangoproject.com/download/#ft2@@https://www.djangoproject.com/download/#ft3@@https://www.djangoproject.com/download/#top@@https://www.djangoproject.com/fundraising/@@https://www.djangoproject.com/download/3.1.3/tarball/@@https://www.djangoproject.com/download/3.1.3/checksum/@@https://docs.djangoproject.com/en/3.1/releases/3.1.3/@@https://github.com/django/django@@https://groups.google.com/group/django-updates@@https://www.djangoproject.com/download/3.0.11/tarball/@@https://www.djangoproject.com/download/3.0.11/checksum/@@https://docs.djangoproject.com/en/3.0/releases/3.0.11/@@https://www.djangoproject.com/download/2.2.17/tarball/@@https://www.djangoproject.com/download/2.2.17/checksum/@@https://docs.djangoproject.com/en/2.2/releases/2.2.17/@@https://www.djangoproject.com/download/2.1.15/tarball/@@https://www.djangoproject.com/download/2.1.15/checksum/@@https://www.djangoproject.com/download/2.0.13/tarball/@@https://www.djangoproject.com/download/2.0.13/checksum/@@https://www.djangoproject.com/download/1.11.29/tarball/@@https://www.djangoproject.com/download/1.11.29/checksum/@@https://www.djangoproject.com/download/1.10.8/tarball/@@https://www.djangoproject.com/download/1.10.8/checksum/@@https://www.djangoproject.com/download/1.9.13/tarball/@@https://www.djangoproject.com/download/1.9.13/checksum/@@https://www.djangoproject.com/download/1.8.19/tarball/@@https://www.djangoproject.com/download/1.8.19/checksum/@@https://www.djangoproject.com/download/1.7.11/tarball/@@https://www.djangoproject.com/download/1.7.11/checksum/@@https://www.djangoproject.com/download/1.6.11/tarball/@@https://www.djangoproject.com/download/1.6.11/checksum/@@https://www.djangoproject.com/download/1.5.12/tarball/@@https://www.djangoproject.com/download/1.5.12/checksum/@@https://www.djangoproject.com/download/1.4.22/tarball/@@https://www.djangoproject.com/download/1.4.22/checksum/@@https://www.djangoproject.com/download/1.3.7/tarball/@@https://www.djangoproject.com/download/1.3.7/checksum/@@https://www.djangoproject.com/download/1.2.7/tarball/@@https://www.djangoproject.com/download/1.2.7/checksum/@@https://www.djangoproject.com/download/1.1.4/tarball/@@https://www.djangoproject.com/download/1.1.4/checksum/@@https://www.djangoproject.com/download/1.0.4/tarball/@@https://www.djangoproject.com/download/1.0.4/checksum/@@https://www.djangoproject.com/start/overview/@@https://www.djangoproject.com/start/@@https://docs.djangoproject.com/en/dev/internals/organization/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/conduct/@@https://www.djangoproject.com/diversity/@@https://www.djangoproject.com/community/@@https://docs.djangoproject.com/en/dev/internals/contributing/@@https://docs.djangoproject.com/en/dev/internals/contributing/bugs-and-features/@@https://docs.djangoproject.com/en/dev/internals/security/#reporting-security-issues@@https://github.com/django@@https://twitter.com/djangoproject@@https://www.djangoproject.com/rss/weblog/@@https://groups.google.com/forum/#!forum/django-users@@https://www.djangoproject.com/fundraising/@@https://django.threadless.com/@@https://www.djangoproject.com/foundation/donate/#amazon-smile@@https://www.djangoproject.com/foundation/donate/#benevity-giving@@https://www.rackspace.com@@https://www.threespot.com@@http://andrevv.com/@@https://www.djangoproject.com/foundation/@@https://www.djangoproject.com/trademarks/,"Django@@Overview@@Download@@Documentation@@News@@Community@@Code@@Issues@@About@@♥ Donate@@BSD license@@
     the FAQ@@3.1.3 release notes@@pip@@Git@@
     a gzipped tarball@@installation guide@@django-users mailing list@@
     supported versions policy@@1@@2@@3@@ Back to Top@@
@@ -1603,673 +1603,4 @@ https://www.djangoproject.com/download/,Download Django | Django,"width=device-w
           Django-1.0.4.tar.gz@@
           Django-1.0.4.checksum.txt@@About Django@@Getting Started with Django@@Team Organization@@Django Software Foundation@@Code of Conduct@@Diversity Statement@@Join a Group@@Contribute to Django@@Submit a Bug@@Report a Security Issue@@GitHub@@Twitter@@News RSS@@Django Users Mailing List@@Sponsor Django@@Official merchandise store@@Amazon Smile@@Benevity Workplace Giving Program@@Rackspace@@Threespot@@@@ Django Software
         Foundation@@registered
-        trademark",False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False,https://static.djangoproject.com/img/release-roadmap.3c7ece4f31b3.png@@https://static.djangoproject.com/img/fundraising-heart.cd6bb84ffd33.svg,@@Support Django!,199.232.18.217,2020-11-15 12:24:34,nginx,text/html; charset=utf-8,en,SAMEORIGIN,nosniff,1; mode=block,"Sun, 15 Nov 2020 12:26:00 GMT",max-age=300,max-age=31536000; includeSubDomains; preload,https://code.djangoproject.com,bytes,"Sun, 15 Nov 2020 12:24:34 GMT",1.1 varnish,0.0,cache-vie21637-VIE,MISS,0,"S1605443074.132637,VS0,VE536","Accept-Language, Accept-Encoding","text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",en,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36","gzip, deflate",,,,https://www.djangoproject.com/,,,,,,
-https://www.djangoproject.com/weblog/,News & Events | Django,"width=device-width, initial-scale=1",utf-8,Additional Information@@Django Links,"
-    @@
-  @@
-    @@
-  @@
-    @@
-  @@
-    @@
-  @@
-    @@
-  @@
-    @@
-  @@
-    @@
-  @@
-    @@
-  @@
-    @@
-  @@
-    @@
-  @@Support Django!@@Upcoming Events@@ @@ @@ @@ @@ @@ @@ @@ @@ @@ @@ @@ @@ @@ @@ @@ @@Learn More@@Get Involved@@Follow Us@@Support Us",,,"The web framework for perfectionists with deadlines. 
-           Overview 
-         
-           Download 
-         
-           Documentation 
-         
-           News 
-         
-           Community 
-         
-           Code 
-         
-           Issues 
-         
-           About 
-         
-           ♥ Donate 
-         
-   
-     Nominations for 2020 Malcolm Tredinnick Memorial Prize 
-   
-  
-   
-    Posted by  Frank Wiles  on November 12, 2020
-   
-  
-     It's time for this year's nominations are open for this year's Malcolm Tredinnick Memorial Prize. 
-
-  
-  
-   Read more 
-  
- 
-   
-     Django bugfix releases issued: 3.1.3, 3.0.11, and 2.2.17 
-   
-  
-   
-    Posted by  Carlton Gibson  on November 2, 2020
-   
-  
-     Today the Django project issued bugfix releases for the 3.1, 3.0, and 2.2
-release series. 
-
-  
-  
-   Read more 
-  
- 
-   
-     Django Technical Board Election Results 2020 
-   
-  
-   
-    Posted by  Frank Wiles  on October 1, 2020
-   
-  
-     Django Technical Board Election Results for the inaugural 2020 election. 
-
-  
-  
-   Read more 
-  
- 
-   
-     Django bugfix release: 3.1.2 
-   
-  
-   
-    Posted by  Mariusz Felisiak  on October 1, 2020
-   
-  
-     Today the Django project issued a bugfix release for the 3.1 release series. 
-
-  
-  
-   Read more 
-  
- 
-   
-     Technical Board Candidate Registration 
-   
-  
-   
-    Posted by  Frank Wiles  on September 4, 2020
-   
-  
-     We're electing our first Technical Board after the acceptance of DEP-10. 
-
-  
-  
-   Read more 
-  
- 
-   
-     Django security releases issued: 3.1.1, 3.0.10 and 2.2.16 
-   
-  
-   
-    Posted by  Carlton Gibson  on September 1, 2020
-   
-  
-     Django 3.1.1, 3.0.10 and 2.2.16 fix two security issues. 
-
-  
-  
-   Read more 
-  
- 
-   
-     Announcement of Technical Board Election Registration 
-   
-  
-   
-    Posted by  Frank Wiles  on August 21, 2020
-   
-  
-     As part of the changes to how Django is governed, it is time to have an election of the Technical Board.  See DEP-10 for details. 
-
-  
-  
-   Read more 
-  
- 
-   
-     DjangoCon Australia 2020: Schedule live and tickets on sale 🎟️ 
-   
-  
-   
-    Posted by  Katie McLaughlin and Markus Holtermann  on August 14, 2020
-   
-  
-     The schedule for the 8 th  DjangoCon AU on September 4 th  is now live, and tickets are on sale! 
-
-  
-  
-   Read more 
-  
- 
-   
-     Django 3.1 Released 
-   
-  
-   
-    Posted by  Mariusz Felisiak  on August 4, 2020
-   
-  
-     Django 3.1 has been released! 
-
-  
-  
-   Read more 
-  
- 
-   
-     Django bugfix releases issued: 3.0.9 and 2.2.15 
-   
-  
-   
-    Posted by  Mariusz Felisiak  on August 3, 2020
-   
-  
-     Today the Django project issued bugfix releases for the 3.0 and 2.2 release series. 
-
-  
-  
-   Read more 
-  
- 
-      Page 1 of 58
-     
-       
-       Next 
-     
-          Tapan Pandita donated to the Django Software Foundation to
-          support Django development. Donate today!
-         
-           DjangoCon US 2021 
-           October 17, 2021   |  San Diego, CA 
-           
-         Want your event listed here? Archives 
-       2020   
-       
-         
-          
-             November 2020 
-          
-             October 2020 
-          
-             September 2020 
-          
-             August 2020 
-          
-             July 2020 
-          
-             June 2020 
-          
-             May 2020 
-          
-             April 2020 
-          
-             March 2020 
-          
-             February 2020 
-          
-             January 2020 
-          
-         
-         
-       
-     
-       2019   
-       
-         
-          
-             December 2019 
-          
-             November 2019 
-          
-             October 2019 
-          
-             September 2019 
-          
-             August 2019 
-          
-             July 2019 
-          
-             June 2019 
-          
-             May 2019 
-          
-             April 2019 
-          
-             March 2019 
-          
-             February 2019 
-          
-             January 2019 
-          
-         
-         
-       
-     
-       2018   
-       
-         
-          
-             December 2018 
-          
-             November 2018 
-          
-             October 2018 
-          
-             August 2018 
-          
-             July 2018 
-          
-             June 2018 
-          
-             May 2018 
-          
-             April 2018 
-          
-             March 2018 
-          
-             February 2018 
-          
-             January 2018 
-          
-         
-         
-       
-     
-       2017   
-       
-         
-          
-             December 2017 
-          
-             November 2017 
-          
-             October 2017 
-          
-             September 2017 
-          
-             August 2017 
-          
-             July 2017 
-          
-             June 2017 
-          
-             May 2017 
-          
-             April 2017 
-          
-             March 2017 
-          
-             February 2017 
-          
-             January 2017 
-          
-         
-         
-       
-     
-       2016   
-       
-         
-          
-             December 2016 
-          
-             November 2016 
-          
-             October 2016 
-          
-             September 2016 
-          
-             August 2016 
-          
-             July 2016 
-          
-             June 2016 
-          
-             May 2016 
-          
-             April 2016 
-          
-             March 2016 
-          
-             February 2016 
-          
-             January 2016 
-          
-         
-         
-       
-     
-       2015   
-       
-         
-          
-             December 2015 
-          
-             November 2015 
-          
-             October 2015 
-          
-             September 2015 
-          
-             August 2015 
-          
-             July 2015 
-          
-             June 2015 
-          
-             May 2015 
-          
-             April 2015 
-          
-             March 2015 
-          
-             February 2015 
-          
-             January 2015 
-          
-         
-         
-       
-     
-       2014   
-       
-         
-          
-             December 2014 
-          
-             November 2014 
-          
-             October 2014 
-          
-             September 2014 
-          
-             August 2014 
-          
-             July 2014 
-          
-             June 2014 
-          
-             May 2014 
-          
-             April 2014 
-          
-             March 2014 
-          
-             February 2014 
-          
-             January 2014 
-          
-         
-         
-       
-     
-       2013   
-       
-         
-          
-             December 2013 
-          
-             November 2013 
-          
-             October 2013 
-          
-             September 2013 
-          
-             August 2013 
-          
-             July 2013 
-          
-             June 2013 
-          
-             May 2013 
-          
-             April 2013 
-          
-             March 2013 
-          
-             February 2013 
-          
-             January 2013 
-          
-         
-         
-       
-     
-       2012   
-       
-         
-          
-             December 2012 
-          
-             November 2012 
-          
-             October 2012 
-          
-             September 2012 
-          
-             August 2012 
-          
-             July 2012 
-          
-             June 2012 
-          
-             May 2012 
-          
-             April 2012 
-          
-             March 2012 
-          
-             February 2012 
-          
-             January 2012 
-          
-         
-         
-       
-     
-       2011   
-       
-         
-          
-             December 2011 
-          
-             November 2011 
-          
-             September 2011 
-          
-             August 2011 
-          
-             June 2011 
-          
-             April 2011 
-          
-             March 2011 
-          
-             February 2011 
-          
-             January 2011 
-          
-         
-         
-       
-     
-       2010   
-       
-         
-          
-             December 2010 
-          
-             November 2010 
-          
-             October 2010 
-          
-             September 2010 
-          
-             May 2010 
-          
-             April 2010 
-          
-             March 2010 
-          
-             February 2010 
-          
-             January 2010 
-          
-         
-         
-       
-     
-       2009   
-       
-         
-          
-             December 2009 
-          
-             October 2009 
-          
-             August 2009 
-          
-             July 2009 
-          
-             May 2009 
-          
-             March 2009 
-          
-             February 2009 
-          
-         
-         
-       
-     
-       2008   
-       
-         
-          
-             November 2008 
-          
-             October 2008 
-          
-             September 2008 
-          
-             August 2008 
-          
-             July 2008 
-          
-             June 2008 
-          
-             May 2008 
-          
-             April 2008 
-          
-             January 2008 
-          
-         
-         
-       
-     
-       2007   
-       
-         
-          
-             December 2007 
-          
-             November 2007 
-          
-             October 2007 
-          
-             September 2007 
-          
-             August 2007 
-          
-             July 2007 
-          
-             June 2007 
-          
-             May 2007 
-          
-             April 2007 
-          
-             March 2007 
-          
-             February 2007 
-          
-             January 2007 
-          
-         
-         
-       
-     
-       2006   
-       
-         
-          
-             December 2006 
-          
-             November 2006 
-          
-             October 2006 
-          
-             September 2006 
-          
-             August 2006 
-          
-             July 2006 
-          
-             June 2006 
-          
-             May 2006 
-          
-             April 2006 
-          
-             March 2006 
-          
-             February 2006 
-          
-             January 2006 
-          
-         
-         
-       
-     
-       2005   
-       
-         
-          
-             December 2005 
-          
-             November 2005 
-          
-             October 2005 
-          
-             September 2005 
-          
-             August 2005 
-          
-             July 2005 
-          
-         
-         
-       
+        trademark",False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False@@False,https://static.djangoproject.com/img/release-roadmap.3c7ece4f31b3.png@@https://static.djangoproject.com/img/fundraising-heart.cd6bb84ffd33.svg,@@Support Django!,199.232.18.217,15-11-2020 12:24,nginx,text/html; charset=utf-8,en,SAMEORIGIN,nosniff,1; mode=block,"Sun, 15 Nov 2020 12:26:00 GMT",max-age=300,max-age=31536000; includeSubDomains; preload,https://code.djangoproject.com,bytes,"Sun, 15 Nov 2020 12:24:34 GMT",1.1 varnish,0,cache-vie21637-VIE,MISS,0,"S1605443074.132637,VS0,VE536","Accept-Language, Accept-Encoding","text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",en,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36","gzip, deflate",NA,NA,,,,,,,,
