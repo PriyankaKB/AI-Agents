@@ -17,9 +17,23 @@ app = FastAPI()
 PUBLISHING_URL = os.getenv("PUBLISHING_AGENT_URL", "http://localhost:8003/check")
 
 publishing_card = AgentCard(
-    name="publishing-agent",
-    description="Checks data for publishing on end blog platform.",
-    endpoint=PUBLISHING_URL
+    {
+    "name": "publishing-agent",
+    "description": "Checks data for publishing on end blog platform.",
+    "defaultInputModes": ["text/plain"],
+    "defaultOutputModes": ["application/json"],
+    "skills": [
+    {
+        "id": "publishing-agent",
+        "name": "publishing-agent",
+        "description": "Checks data for publishing on end blog platform.",
+        "tags": ["publishing"]
+    }
+    ],
+    "url": PUBLISHING_URL,
+    "capabilities": {},
+    "version": "1.0.0"
+    }
 )
 
 # Agents

@@ -17,9 +17,23 @@ app = FastAPI()
 FEEDBACK_URL = os.getenv("FEEDBACK_AGENT_URL", "http://localhost:8004/check")
 
 feedback_card = AgentCard(
-    name="feedback-agent",
-    description="Checks feedback from content reader.",
-    endpoint=FEEDBACK_URL
+    {
+    "name": "feedback-agent",
+    "description": "Checks feedback from content reader.",
+    "defaultInputModes": ["text/plain"],
+    "defaultOutputModes": ["application/json"],
+    "skills": [
+    {
+        "id": "feedback-agent",
+        "name": "feedback-agent",
+        "description": "Checks feedback from content reader.",
+        "tags": ["feedback"]
+    }
+    ],
+    "url": FEEDBACK_URL,
+    "capabilities": {},
+    "version": "1.0.0"
+    }
 )
 
 # Agents

@@ -17,9 +17,23 @@ app = FastAPI()
 SEO_URL = os.getenv("SEO_AGENT_URL", "http://localhost:8002/check")
 
 seo_card = AgentCard(
-    name="seo-agent",
-    description="Checks drafts for seo",
-    endpoint=SEO_URL
+    {
+    "name": "seo-agent",
+    "description": "Agent that detect keywords and metadata for seo.",
+    "defaultInputModes": ["text/plain"],
+    "defaultOutputModes": ["application/json"],
+    "skills": [
+    {
+        "id": "seo-agent",
+        "name": "seo-agent",
+        "description": "Agent that detect keywords and metadata for seo.",
+        "tags": ["seo"]
+    }
+    ],
+    "url": SEO_URL,
+    "capabilities": {},
+    "version": "1.0.0"
+    }
 )
 
 # Agents
@@ -27,6 +41,7 @@ seo-agent = RemoteA2aAgent(
     name="seo-agent",
     description="Agent that detect keywords and metadata for seo.",
     agent_card=seo_card
+
 )
 
 agent = Agent("plagiarism-agent")

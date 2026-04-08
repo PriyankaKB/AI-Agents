@@ -1,6 +1,10 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import requests
+import os
+import dotenv
+
+dotenv.load_dotenv()
 
 app = FastAPI()
 
@@ -12,13 +16,20 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+DRAFTING_URL = os.getenv("DRAFTING_AGENT_URL", "http://localhost:8000/check")
+PLAGIARISM_URL = os.getenv("PLAGIARISM_AGENT_URL", "http://localhost:8001/check")
+SEO_URL = os.getenv("SEO_AGENT_URL", "http://localhost:8002/check")
+PUBLISHING_URL = os.getenv("PUBLISHING_AGENT_URL", "http://localhost:8003/check")
+FEEDBACK_URL = os.getenv("FEEDBACK_AGENT_URL", "http://localhost:8004/check")
+
+
 # Replace with actual Cloud Run URLs after deployment
 AGENT_URLS = {
-    "drafting": "https://drafting-agent-<region>.run.app/process",
-    "plagiarism": "https://plagiarism-agent-<region>.run.app/check",
-    "seo": "https://seo-agent-<region>.run.app/optimize",
-    "publishing": "https://publishing-agent-<region>.run.app/publish",
-    "feedback": "https://feedback-agent-<region>.run.app/feedback",
+    "drafting": DRAFTING_URL,
+    "plagiarism": PLAGIARISM_URL,
+    "seo": SEO_URL,
+    "publishing": PUBLISHING_URL,
+    "feedback": FEEDBACK_URL,
 }
 
 @app.post("/run")

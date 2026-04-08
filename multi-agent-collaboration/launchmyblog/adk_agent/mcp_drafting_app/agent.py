@@ -17,9 +17,23 @@ app = FastAPI()
 PLAGIARISM_URL = os.getenv("PLAGIARISM_AGENT_URL", "http://localhost:8001/check")
 
 plagiarism_card = AgentCard(
-    name="plagiarism-agent",
-    description="Checks drafts for plagiarism",
-    endpoint=PLAGIARISM_URL
+    {
+    "name": "plagiarism-agent",
+    "description": "Checks drafts for plagiarism.",
+    "defaultInputModes": ["text/plain"],
+    "defaultOutputModes": ["application/json"],
+    "skills": [
+    {
+        "id": "plagiarism-agent",
+        "name": "plagiarism-agent",
+        "description": "Checks drafts for plagiarism.",
+        "tags": ["plagiarism"]
+    }
+    ],
+    "url": PLAGIARISM_URL,
+    "capabilities": {},
+    "version": "1.0.0"
+}
 )
 
 # Agents
