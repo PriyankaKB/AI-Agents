@@ -39,7 +39,7 @@ root_agent = LlmAgent(
     instruction=f"""
                 Help the user answer questions by strategically combining insights from two sources:
                 
-                1.  **BigQuery toolset:** Access seo-django, seo-django1, seo-django-logs, seo-django-robotstxt, seo-django-sitemaps in the mcp_blog dataset. Do not use any other datasets.
+                1.  **BigQuery toolset:** Access mcp-seo-data in the mcp_blog dataset. Do not use any other datasets.
                 Run all query jobs from project id: {PROJECT_ID}. 
 
                 2.  **Maps Toolset:** Use this for real-world location analysis, finding competition/places and calculating necessary travel routes.

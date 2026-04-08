@@ -47,11 +47,12 @@ fi
 echo "[4/8] Setting up Table: mcp-drafting-data..."
 bq query --use_legacy_sql=false \
 "CREATE OR REPLACE TABLE \`$PROJECT_ID.$DATASET_NAME.mcp-drafting-data\` (
-    instructions STRING OPTIONS (description='instructions for writing'),
-    titles STRING OPTIONS (description='Title of essays'),
-    essays STRING OPTIONS (description='Content of essay'),
-    urls STRING OPTIONS (description='URL of essay'),
-    __index_level_0__ STRING OPTIONS (description='index level')
+    id INT OPTIONS (description='Id of blog content'),
+    title STRING OPTIONS (description='Title of blog, reaserch or publishing'),
+    author STRING OPTIONS (description='Author of blog, reaserch or publishing'),
+    location STRING OPTIONS (description='Location related to blog or mentioned in the content'),
+    timestamp STRING OPTIONS (description='Timestamp or date of publishing')
+    content STRING OPTIONS (description='Blog content')
 )
 OPTIONS(
     description='Drafting data for drafting content.'
@@ -75,30 +76,28 @@ OPTIONS(
 bq load --source_format=CSV --skip_leading_rows=1 --ignore_unknown_values=true --replace \
     "$PROJECT_ID:$DATASET_NAME.mcp-plagiarism-data" "$BUCKET_NAME/mcp-plagiarism-data.csv"
 
-# 6. Create SEO data Tables
-echo "[6.1/8] Setting up Table:seo-django1..."
-bq load --source_format=NEWLINE_DELIMITED_JSON --ignore_unknown_values=true --replace \
-  --autodetect \
-  "$PROJECT_ID:$DATASET_NAME.seo-django1" "$BUCKET_NAME/seo-django1.jl"
+# 6. Create mcp-seo-data Tables
+echo "[6.1/8] Setting up Table:mcp-seo-data..."
+bq query --use_legacy_sql=false \
+"CREATE OR REPLACE TABLE \`$PROJECT_ID.$DATASET_NAME.mcp-seo-data\` (
+    id INT OPTIONS (description='id of seo field'),
+    url STRING OPTIONS (description='url of seo field'),
+    title STRING OPTIONS (description='title of seo field'),
+    author STRING OPTIONS (description='author of seo field'),
+    location STRING OPTIONS (description='location of seo field'),
+    timestamp STRING OPTIONS (description='timestamp of seo field'),
+    meta_description STRING OPTIONS (description='meta_description of seo field '),
+    keywords STRING OPTIONS (description='keywords of seo field'),
+    content STRING OPTIONS (description='content of seo field')
+)
+OPTIONS(
+    description='SEO dataset.'
+);"
 
-echo "[6.2/8] Setting up Table:seo-django-logs..."
-bq load --source_format=NEWLINE_DELIMITED_JSON --ignore_unknown_values=true --replace \
-  --autodetect \
-  "$PROJECT_ID:$DATASET_NAME.seo-django-logs" "$BUCKET_NAME/seo-django-logs.jl"
+bq load --source_format=CSV --skip_leading_rows=1 --ignore_unknown_values=true --replace \
+    "$PROJECT_ID:$DATASET_NAME.mcp-seo-data" "$BUCKET_NAME/mcp-seo-data.csv"
 
-echo "[6.3/8] Setting up Table:seo-django..."
-bq load --source_format=CSV --skip_leading_rows=1 --ignore_unknown_values=true --replace --autodetect\
-    "$PROJECT_ID:$DATASET_NAME.seo-django" "$BUCKET_NAME/seo-django.csv"
-
-echo "[6.4/8] Setting up Table:seo-django-sitemaps..."
-bq load --source_format=CSV --skip_leading_rows=1 --ignore_unknown_values=true --replace --autodetect\
-    "$PROJECT_ID:$DATASET_NAME.seo-django-sitemaps" "$BUCKET_NAME/seo-django-sitemaps.csv"
-
-echo "[6.5/8] Setting up Table:seo-django-robotstxt..."
-bq load --source_format=CSV --skip_leading_rows=1 --ignore_unknown_values=true --replace --autodetect\
-    "$PROJECT_ID:$DATASET_NAME.seo-django-sitemaps" "$BUCKET_NAME/seo-django-robotstxt.csv"
-
-# 7. Create mcp_publishing_app Tables
+# 7. Create mcp-publishing-data Tables
 echo "[7/8] Setting up Table:mcp-publishing-data..."
 bq query --use_legacy_sql=false \
 "CREATE OR REPLACE TABLE \`$PROJECT_ID.$DATASET_NAME.mcp-publishing-data\` (
@@ -117,7 +116,7 @@ OPTIONS(
 bq load --source_format=CSV --skip_leading_rows=1 --ignore_unknown_values=true --replace \
     "$PROJECT_ID:$DATASET_NAME.mcp-publishing-data" "$BUCKET_NAME/mcp-publishing-data.csv"
 
-# 8. Create mcp_feedback_app Tables
+# 8. Create mcp-feedback-data Tables
 echo "[8/8] Setting up Table:mcp-feedback-data..."
 bq query --use_legacy_sql=false \
 "CREATE OR REPLACE TABLE \`$PROJECT_ID.$DATASET_NAME.mcp-feedback-data\` (

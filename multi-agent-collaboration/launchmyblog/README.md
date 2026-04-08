@@ -37,11 +37,7 @@ launchmynews/
 ├── data/                        # Pre-generated CSV files for BigQuery
 │   ├── mcp-drafting-data.csv
 │   ├── mcp-plagiarism-data.csv
-│   ├── seo-django.csv
-│   ├── seo-django-robotstxt.csv
-│   ├── seo-django-sitemaps.csv
-│   ├── seo-django1.jl
-│   ├── seo-django-logs.jl
+│   ├── mcp-seo-data.csv
 │   ├── mcp-publishing-data.csv
 │   ├── mcp-feedback-data.csv
 ├── adk_agent/                   # AI Agent Application (ADK)
