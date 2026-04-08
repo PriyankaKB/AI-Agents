@@ -5,7 +5,7 @@ from google.adk.agents import LlmAgent
 from google.adk import Agent
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-from a2a.types import Message
+from a2a.types import Message, AgentCard
 from google.adk.agents.remote_a2a_agent import RemoteA2aAgent
 
 dotenv.load_dotenv()

@@ -5,7 +5,7 @@ from google.adk.agents import LlmAgent
 from google.adk import Agent
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-from a2a.types import Message
+from a2a.types import Message, AgentCard
 from google.adk.agents.remote_a2a_agent import RemoteA2aAgent
 
 dotenv.load_dotenv()
@@ -14,10 +14,19 @@ PROJECT_ID = os.getenv('GOOGLE_CLOUD_PROJECT', 'project_not_set')
 
 app = FastAPI()
 
+PLAGIARISM_URL = os.getenv("PLAGIARISM_AGENT_URL", "http://localhost:8001/check")
+
+plagiarism_card = AgentCard(
+    name="plagiarism-agent",
+    description="Checks drafts for plagiarism",
+    endpoint=PLAGIARISM_URL
+)
+
 # Agents
 plagiarism_agent = RemoteA2aAgent(
     name="plagiarism-agent",
     description="Agent that detect overlapping content and plagiarism.",
+    agent_card=plagiarism_card
 )
 
 agent = Agent("drafting-agent")

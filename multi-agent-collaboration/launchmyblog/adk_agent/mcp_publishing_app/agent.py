@@ -5,7 +5,7 @@ from google.adk.agents import LlmAgent
 from google.adk import Agent
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-from a2a.types import Message
+from a2a.types import Message, AgentCard
 from google.adk.agents.remote_a2a_agent import RemoteA2aAgent
 
 dotenv.load_dotenv()
@@ -14,10 +14,19 @@ PROJECT_ID = os.getenv('GOOGLE_CLOUD_PROJECT', 'project_not_set')
 
 app = FastAPI()
 
+FEEDBACK_URL = os.getenv("FEEDBACK_AGENT_URL", "http://localhost:8004/check")
+
+feedback_card = AgentCard(
+    name="feedback-agent",
+    description="Checks feedback from content reader.",
+    endpoint=FEEDBACK_URL
+)
+
 # Agents
 feedback-agent = RemoteA2aAgent(
     name="feedback-agent",
     description="Agent that gets blog feedback from user.",
+    agent_card=feedback_card
 )
 
 agent = Agent("publishing-agent")

@@ -5,7 +5,7 @@ from google.adk.agents import LlmAgent
 from google.adk import Agent
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-from a2a.types import Message
+from a2a.types import Message, AgentCard
 from google.adk.agents.remote_a2a_agent import RemoteA2aAgent
 
 dotenv.load_dotenv()
@@ -14,10 +14,19 @@ PROJECT_ID = os.getenv('GOOGLE_CLOUD_PROJECT', 'project_not_set')
 
 app = FastAPI()
 
+SEO_URL = os.getenv("SEO_AGENT_URL", "http://localhost:8002/check")
+
+seo_card = AgentCard(
+    name="seo-agent",
+    description="Checks drafts for seo",
+    endpoint=SEO_URL
+)
+
 # Agents
 seo-agent = RemoteA2aAgent(
     name="seo-agent",
     description="Agent that detect keywords and metadata for seo.",
+    agent_card=seo_card
 )
 
 agent = Agent("plagiarism-agent")

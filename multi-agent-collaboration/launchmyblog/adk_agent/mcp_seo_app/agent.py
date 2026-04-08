@@ -5,7 +5,7 @@ from google.adk.agents import LlmAgent
 from google.adk import Agent
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-from a2a.types import Message
+from a2a.types import Message, AgentCard
 from google.adk.agents.remote_a2a_agent import RemoteA2aAgent
 
 dotenv.load_dotenv()
@@ -14,10 +14,19 @@ PROJECT_ID = os.getenv('GOOGLE_CLOUD_PROJECT', 'project_not_set')
 
 app = FastAPI()
 
+PUBLISHING_URL = os.getenv("PUBLISHING_AGENT_URL", "http://localhost:8003/check")
+
+publishing_card = AgentCard(
+    name="publishing-agent",
+    description="Checks data for publishing on end blog platform.",
+    endpoint=PUBLISHING_URL
+)
+
 # Agents
 publishing-agent = RemoteA2aAgent(
     name="publishing-agent",
     description="Agent that publish content on blog platform.",
+    agent_card=publishing_card
 )
 
 agent = Agent("seo-agent")
