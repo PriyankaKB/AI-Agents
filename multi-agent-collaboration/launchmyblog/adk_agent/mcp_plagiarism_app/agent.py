@@ -14,6 +14,7 @@ PROJECT_ID = os.getenv('GOOGLE_CLOUD_PROJECT', 'project_not_set')
 
 app = FastAPI()
 
+PLAGIARISM_URL = os.getenv("PLAGIARISM_AGENT_URL", "http://localhost:8001/check")
 SEO_URL = os.getenv("SEO_AGENT_URL", "http://localhost:8002/check")
 
 seo_card = AgentCard(
@@ -34,6 +35,24 @@ seo_card = AgentCard(
     version="1.0.0"
 )
 
+plagiarism_card = AgentCard(
+    name="plagiarism_agent",
+    description="Checks drafts for plagiarism.",
+    defaultInputModes=["text/plain"],
+    defaultOutputModes=["application/json"],
+    skills=[
+        {
+            "id": "plagiarism_agent",
+            "name": "plagiarism_agent",
+            "description": "Checks drafts for plagiarism.",
+            "tags": ["plagiarism"]
+        }
+    ],
+    url=PLAGIARISM_URL,   # use env var for Cloud Run URL
+    capabilities={},      # can be empty if no special capabilities
+    version="1.0.0"
+)
+
 # Agents
 seo_agent = RemoteA2aAgent(
     name="seo_agent",
@@ -42,7 +61,7 @@ seo_agent = RemoteA2aAgent(
 
 )
 
-agent = Agent("plagiarism_agent")
+agent = Agent(agent_card=plagiarism_card)
 
 app.add_middleware(
     CORSMiddleware,

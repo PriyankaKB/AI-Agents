@@ -14,7 +14,26 @@ PROJECT_ID = os.getenv('GOOGLE_CLOUD_PROJECT', 'project_not_set')
 
 app = FastAPI()
 
+PUBLISHING_URL = os.getenv("PUBLISHING_AGENT_URL", "http://localhost:8003/check")
 FEEDBACK_URL = os.getenv("FEEDBACK_AGENT_URL", "http://localhost:8004/check")
+
+publishing_card = AgentCard(
+    name="publishing_agent",
+    description="Checks data for publishing on end blog platform.",
+    defaultInputModes=["text/plain"],
+    defaultOutputModes=["application/json"],
+    skills=[
+        {
+            "id": "publishing_agent",
+            "name": "publishing_agent",
+            "description": "Checks data for publishing on end blog platform.",
+            "tags": ["publishing"]
+        }
+    ],
+    url=PUBLISHING_URL,   # set via env var, e.g. http://localhost:8003/check or Cloud Run URL
+    capabilities={},      # can be empty if no special capabilities
+    version="1.0.0"
+)
 
 feedback_card = AgentCard(
     name="feedback_agent",
@@ -41,7 +60,7 @@ feedback_agent = RemoteA2aAgent(
     agent_card=feedback_card
 )
 
-agent = Agent("publishing_agent")
+agent = Agent(agent_card=publishing_card)
 
 app.add_middleware(
     CORSMiddleware,

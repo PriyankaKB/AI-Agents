@@ -14,8 +14,28 @@ PROJECT_ID = os.getenv('GOOGLE_CLOUD_PROJECT', 'project_not_set')
 
 app = FastAPI()
 
+FEEDBACK_URL = os.getenv("FEEDBACK_AGENT_URL", "http://localhost:8004/check")
+
+feedback_card = AgentCard(
+    name="feedback_agent",
+    description="Checks feedback from content reader.",
+    defaultInputModes=["text/plain"],
+    defaultOutputModes=["application/json"],
+    skills=[
+        {
+            "id": "feedback_agent",
+            "name": "feedback_agent",
+            "description": "Checks feedback from content reader.",
+            "tags": ["feedback"]
+        }
+    ],
+    url=FEEDBACK_URL,     # set via env var, e.g. http://localhost:8004/check or Cloud Run URL
+    capabilities={},      # can be empty if no special capabilities
+    version="1.0.0"
+)
+
 # Agents
-agent = Agent("feedback_agent")
+agent = Agent(agent_card=feedback_card)
 
 app.add_middleware(
     CORSMiddleware,

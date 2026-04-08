@@ -14,7 +14,26 @@ PROJECT_ID = os.getenv('GOOGLE_CLOUD_PROJECT', 'project_not_set')
 
 app = FastAPI()
 
+DRAFTING_URL = os.getenv("DRAFTING_AGENT_URL", "http://localhost:8000/check")
 PLAGIARISM_URL = os.getenv("PLAGIARISM_AGENT_URL", "http://localhost:8001/check")
+
+drafting_card = AgentCard(
+    name="drafting_agent",
+    description="Checks drafts or crate new drafts for new content.",
+    defaultInputModes=["text/plain"],
+    defaultOutputModes=["application/json"],
+    skills=[
+        {
+            "id": "drafting_agent",
+            "name": "drafting_agent",
+            "description": "Checks drafts or crate new drafts for new content.",
+            "tags": ["drafting"]
+        }
+    ],
+    url=DRAFTING_URL,   # use env var for Cloud Run URL
+    capabilities={},      # can be empty if no special capabilities
+    version="1.0.0"
+)
 
 plagiarism_card = AgentCard(
     name="plagiarism_agent",
@@ -41,7 +60,7 @@ plagiarism_agent = RemoteA2aAgent(
     agent_card=plagiarism_card
 )
 
-agent = Agent("drafting_agent")
+agent = Agent(agent_card=drafting_card)
 
 app.add_middleware(
     CORSMiddleware,

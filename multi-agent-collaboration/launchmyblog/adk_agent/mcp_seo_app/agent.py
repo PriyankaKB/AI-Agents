@@ -14,7 +14,26 @@ PROJECT_ID = os.getenv('GOOGLE_CLOUD_PROJECT', 'project_not_set')
 
 app = FastAPI()
 
+SEO_URL = os.getenv("SEO_AGENT_URL", "http://localhost:8002/check")
 PUBLISHING_URL = os.getenv("PUBLISHING_AGENT_URL", "http://localhost:8003/check")
+
+seo_card = AgentCard(
+    name="seo_agent",
+    description="Agent that detects keywords and metadata for SEO.",
+    defaultInputModes=["text/plain"],
+    defaultOutputModes=["application/json"],
+    skills=[
+        {
+            "id": "seo_agent",
+            "name": "seo_agent",
+            "description": "Agent that detects keywords and metadata for SEO.",
+            "tags": ["seo"]
+        }
+    ],
+    url=SEO_URL,          # set via env var, e.g. http://localhost:8002/check or Cloud Run URL
+    capabilities={},      # can be empty if no special capabilities
+    version="1.0.0"
+)
 
 publishing_card = AgentCard(
     name="publishing_agent",
@@ -41,7 +60,7 @@ publishing_agent = RemoteA2aAgent(
     agent_card=publishing_card
 )
 
-agent = Agent("seo_agent")
+agent = Agent(agent_card=seo_card)
 
 app.add_middleware(
     CORSMiddleware,
