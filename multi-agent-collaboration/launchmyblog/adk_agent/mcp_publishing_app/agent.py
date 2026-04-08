@@ -60,7 +60,7 @@ feedback_agent = RemoteA2aAgent(
     agent_card=feedback_card
 )
 
-agent = Agent(agent_card=publishing_card)
+publishing_agent = Agent(agent_card=publishing_card)
 
 app.add_middleware(
     CORSMiddleware,

@@ -60,7 +60,7 @@ publishing_agent = RemoteA2aAgent(
     agent_card=publishing_card
 )
 
-agent = Agent(agent_card=seo_card)
+seo_agent = Agent(agent_card=seo_card)
 
 app.add_middleware(
     CORSMiddleware,

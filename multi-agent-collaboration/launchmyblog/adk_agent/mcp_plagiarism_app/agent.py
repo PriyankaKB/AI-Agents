@@ -61,7 +61,7 @@ seo_agent = RemoteA2aAgent(
 
 )
 
-agent = Agent(agent_card=plagiarism_card)
+plagiarism_agent = Agent(agent_card=plagiarism_card)
 
 app.add_middleware(
     CORSMiddleware,

@@ -35,7 +35,7 @@ feedback_card = AgentCard(
 )
 
 # Agents
-agent = Agent(agent_card=feedback_card)
+feedback_agent = Agent(agent_card=feedback_card)
 
 app.add_middleware(
     CORSMiddleware,

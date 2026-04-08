@@ -60,7 +60,7 @@ plagiarism_agent = RemoteA2aAgent(
     agent_card=plagiarism_card
 )
 
-agent = Agent(agent_card=drafting_card)
+drafting_agent = Agent(agent_card=drafting_card)
 
 app.add_middleware(
     CORSMiddleware,
