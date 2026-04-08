@@ -4,7 +4,7 @@ from mcp_seo_app import tools
 from google.adk.agents import LlmAgent
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-from google_a2a_sdk import Agent, Message
+from a2a_sdk import Agent, Message
 
 dotenv.load_dotenv()
 

@@ -138,7 +138,7 @@ chmod +x ./setup/setup_bigquery.sh
 ./setup/setup_bigquery.sh
 ```
 
-### 5. Install ADK and Run Agent
+### 5. Install ADK and Run Agent and A2A SDK
 
 Create a virtual environment, install the ADK, and run the agent.
 
@@ -161,6 +161,8 @@ cd adk_agent/
 # Run the ADK web interface
 adk web --allow_origins 'regex:https://.*\.cloudshell\.dev'
 ```
+#### Install A2A SDK
+python3 -m pip install --upgrade google-adk a2a-sdk google-genai
 
 ### 6. Chat with the Agent
 
