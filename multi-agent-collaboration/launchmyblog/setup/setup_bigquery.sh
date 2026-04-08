@@ -51,8 +51,8 @@ bq query --use_legacy_sql=false \
     title STRING OPTIONS (description='Title of blog, reaserch or publishing'),
     author STRING OPTIONS (description='Author of blog, reaserch or publishing'),
     location STRING OPTIONS (description='Location related to blog or mentioned in the content'),
-    timestamp STRING OPTIONS (description='Timestamp or date of publishing')
-    content STRING OPTIONS (description='Blog content')
+    timestamp STRING OPTIONS (description='Timestamp or date of publishing'),
+    content STRING OPTIONS (description='Blog content'),
 )
 OPTIONS(
     description='Drafting data for drafting content.'
