@@ -12,7 +12,7 @@ ENV_FILE3="$SCRIPT_DIR/../adk_agent/mcp_seo_app/.env"
 ENV_FILE4="$SCRIPT_DIR/../adk_agent/mcp_publishing_app/.env"
 ENV_FILE5="$SCRIPT_DIR/../adk_agent/mcp_feedback_app/.env"
 ENV_FILE56="$SCRIPT_DIR/../adk_agent/orchestrator/.env"
-DATASET_NAME="mcp-blog"
+DATASET_NAME="mcp_blog"
 
 # Attempt to load Project ID from local .env if available (supports multi-session/cloud shell)
 if [ -f "$ENV_FILE1" ]; then

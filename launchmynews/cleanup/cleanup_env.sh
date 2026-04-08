@@ -7,7 +7,7 @@
 # 1. Configuration & Project Detection
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 ENV_FILE="$SCRIPT_DIR/../adk_agent/mcp_news_app/.env"
-DATASET_NAME="mcp-news"
+DATASET_NAME="mcp_news"
 
 # Attempt to load Project ID from local .env if available (supports multi-session/cloud shell)
 if [ -f "$ENV_FILE" ]; then

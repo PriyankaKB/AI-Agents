@@ -90,7 +90,7 @@ chmod +x setup/setup_env.sh
 Run the setup script. This script automates the following:
 *   Creates a Cloud Storage bucket.
 *   Uploads the CSV data files.
-*   Creates the `mcp-news` BigQuery dataset.
+*   Creates the `mcp_news` BigQuery dataset.
 *   Loads the data into BigQuery tables.
 
 ```bash

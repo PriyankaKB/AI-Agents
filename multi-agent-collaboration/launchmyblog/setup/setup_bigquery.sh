@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PROJECT_ID=$(gcloud config get-value project)
-DATASET_NAME="mcp-blog"
+DATASET_NAME="mcp_blog"
 LOCATION="US"
 
 # Generate bucket name if not provided
