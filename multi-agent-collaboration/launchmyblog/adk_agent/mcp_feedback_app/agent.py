@@ -54,6 +54,6 @@ root_agent = LlmAgent(
                 2.  **Maps Toolset:** Use this for real-world location analysis, finding competition/places and calculating necessary travel routes.
                     Include a hyperlink to an interactive map in your response where appropriate.
             """,
-    tools=[maps_toolset, bigquery_toolset]
+    tools=[maps_toolset, bigquery_toolset],
     sub_agents=[feedback-agent]
 )
