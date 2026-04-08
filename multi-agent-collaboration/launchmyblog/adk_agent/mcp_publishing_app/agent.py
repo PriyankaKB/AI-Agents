@@ -17,14 +17,14 @@ app = FastAPI()
 FEEDBACK_URL = os.getenv("FEEDBACK_AGENT_URL", "http://localhost:8004/check")
 
 feedback_card = AgentCard(
-    name="feedback-agent",
+    name="feedback_agent",
     description="Checks feedback from content reader.",
     defaultInputModes=["text/plain"],
     defaultOutputModes=["application/json"],
     skills=[
         {
-            "id": "feedback-agent",
-            "name": "feedback-agent",
+            "id": "feedback_agent",
+            "name": "feedback_agent",
             "description": "Checks feedback from content reader.",
             "tags": ["feedback"]
         }
@@ -35,13 +35,13 @@ feedback_card = AgentCard(
 )
 
 # Agents
-feedback-agent = RemoteA2aAgent(
-    name="feedback-agent",
+feedback_agent = RemoteA2aAgent(
+    name="feedback_agent",
     description="Agent that gets blog feedback from user.",
     agent_card=feedback_card
 )
 
-agent = Agent("publishing-agent")
+agent = Agent("publishing_agent")
 
 app.add_middleware(
     CORSMiddleware,
@@ -57,7 +57,7 @@ async def publish(request: Request):
     text = data.get("optimized_draft", "")
     print("🌐 Publishing Agent: Blog post published.")
     response = {"status": "published", "content": text}
-    agent.send(Message("feedback-agent", response))
+    agent.send(Message("feedback_agent", response))
     return response
 
 maps_toolset = tools.get_maps_mcp_toolset()
@@ -76,5 +76,5 @@ root_agent = LlmAgent(
                     Include a hyperlink to an interactive map in your response where appropriate.
             """,
     tools=[maps_toolset, bigquery_toolset],
-    sub_agents=[publishing-agent]
+    sub_agents=[publishing_agent]
 )

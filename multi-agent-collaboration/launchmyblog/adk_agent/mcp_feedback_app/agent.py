@@ -15,7 +15,7 @@ PROJECT_ID = os.getenv('GOOGLE_CLOUD_PROJECT', 'project_not_set')
 app = FastAPI()
 
 # Agents
-agent = Agent("feedback-agent")
+agent = Agent("feedback_agent")
 
 app.add_middleware(
     CORSMiddleware,
@@ -55,5 +55,5 @@ root_agent = LlmAgent(
                     Include a hyperlink to an interactive map in your response where appropriate.
             """,
     tools=[maps_toolset, bigquery_toolset],
-    sub_agents=[feedback-agent]
+    sub_agents=[feedback_agent]
 )

@@ -17,14 +17,14 @@ app = FastAPI()
 PUBLISHING_URL = os.getenv("PUBLISHING_AGENT_URL", "http://localhost:8003/check")
 
 publishing_card = AgentCard(
-    name="publishing-agent",
+    name="publishing_agent",
     description="Checks data for publishing on end blog platform.",
     defaultInputModes=["text/plain"],
     defaultOutputModes=["application/json"],
     skills=[
         {
-            "id": "publishing-agent",
-            "name": "publishing-agent",
+            "id": "publishing_agent",
+            "name": "publishing_agent",
             "description": "Checks data for publishing on end blog platform.",
             "tags": ["publishing"]
         }
@@ -35,13 +35,13 @@ publishing_card = AgentCard(
 )
 
 # Agents
-publishing-agent = RemoteA2aAgent(
-    name="publishing-agent",
+publishing_agent = RemoteA2aAgent(
+    name="publishing_agent",
     description="Agent that publish content on blog platform.",
     agent_card=publishing_card
 )
 
-agent = Agent("seo-agent")
+agent = Agent("seo_agent")
 
 app.add_middleware(
     CORSMiddleware,
@@ -57,7 +57,7 @@ async def optimize(request: Request):
     text = data.get("draft", "")
     optimized = text + "\n\n# SEO\nKeywords: blogging, research, learning"
     response = {"optimized_draft": optimized}
-    agent.send(Message("publishing-agent", response))
+    agent.send(Message("publishing_agent", response))
     return response
 
 maps_toolset = tools.get_maps_mcp_toolset()
@@ -76,5 +76,5 @@ root_agent = LlmAgent(
                     Include a hyperlink to an interactive map in your response where appropriate.
             """,
     tools=[maps_toolset, bigquery_toolset],
-    sub_agents=[seo-agent]
+    sub_agents=[seo_agent]
 )

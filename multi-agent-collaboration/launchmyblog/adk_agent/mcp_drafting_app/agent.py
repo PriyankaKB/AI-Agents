@@ -17,14 +17,14 @@ app = FastAPI()
 PLAGIARISM_URL = os.getenv("PLAGIARISM_AGENT_URL", "http://localhost:8001/check")
 
 plagiarism_card = AgentCard(
-    name="plagiarism-agent",
+    name="plagiarism_agent",
     description="Checks drafts for plagiarism.",
     defaultInputModes=["text/plain"],
     defaultOutputModes=["application/json"],
     skills=[
         {
-            "id": "plagiarism-agent",
-            "name": "plagiarism-agent",
+            "id": "plagiarism_agent",
+            "name": "plagiarism_agent",
             "description": "Checks drafts for plagiarism.",
             "tags": ["plagiarism"]
         }
@@ -36,12 +36,12 @@ plagiarism_card = AgentCard(
 
 # Agents
 plagiarism_agent = RemoteA2aAgent(
-    name="plagiarism-agent",
+    name="plagiarism_agent",
     description="Agent that detect overlapping content and plagiarism.",
     agent_card=plagiarism_card
 )
 
-agent = Agent("drafting-agent")
+agent = Agent("drafting_agent")
 
 app.add_middleware(
     CORSMiddleware,
@@ -57,7 +57,7 @@ async def process(request: Request):
     text = data.get("draft", "")
     structured = f"# Introduction\n{text}\n\n# References\n- Author: Human Researcher"
     response = {"structured_draft": structured}
-    agent.send(Message("plagiarism-agent", response))
+    agent.send(Message("plagiarism_agent", response))
     return response
 
 maps_toolset = tools.get_maps_mcp_toolset()
@@ -65,7 +65,7 @@ bigquery_toolset = tools.get_bigquery_mcp_toolset()
 
 root_agent = LlmAgent(
     model='gemini-2.5-flash-lite',
-    name='drafting-agent',
+    name='drafting_agent',
     description="Creates drafts for blog content.",
     instruction=f"""
                 Help the user answer questions by strategically combining insights from two sources:
@@ -77,5 +77,5 @@ root_agent = LlmAgent(
                     Include a hyperlink to an interactive map in your response where appropriate.
             """,
     tools=[maps_toolset, bigquery_toolset],
-    sub_agents=[drafting-agent]
+    sub_agents=[drafting_agent]
 )

@@ -17,14 +17,14 @@ app = FastAPI()
 SEO_URL = os.getenv("SEO_AGENT_URL", "http://localhost:8002/check")
 
 seo_card = AgentCard(
-    name="seo-agent",
+    name="seo_agent",
     description="Agent that detects keywords and metadata for SEO.",
     defaultInputModes=["text/plain"],
     defaultOutputModes=["application/json"],
     skills=[
         {
-            "id": "seo-agent",
-            "name": "seo-agent",
+            "id": "seo_agent",
+            "name": "seo_agent",
             "description": "Agent that detects keywords and metadata for SEO.",
             "tags": ["seo"]
         }
@@ -35,14 +35,14 @@ seo_card = AgentCard(
 )
 
 # Agents
-seo-agent = RemoteA2aAgent(
-    name="seo-agent",
+seo_agent = RemoteA2aAgent(
+    name="seo_agent",
     description="Agent that detect keywords and metadata for seo.",
     agent_card=seo_card
 
 )
 
-agent = Agent("plagiarism-agent")
+agent = Agent("plagiarism_agent")
 
 app.add_middleware(
     CORSMiddleware,
@@ -58,7 +58,7 @@ async def check(request: Request):
     text = data.get("structured_draft", "")
     report = "Overlap detected with common topic. Proceed allowed."
     response = {"plagiarism_report": report, "draft": text}
-    agent.send(Message("seo-agent", response))
+    agent.send(Message("seo_agent", response))
     return response
 
 maps_toolset = tools.get_maps_mcp_toolset()
@@ -77,5 +77,5 @@ root_agent = LlmAgent(
                     Include a hyperlink to an interactive map in your response where appropriate.
             """,
     tools=[maps_toolset, bigquery_toolset],
-    sub_agents=[plagiarism-agent]
+    sub_agents=[plagiarism_agent]
 )

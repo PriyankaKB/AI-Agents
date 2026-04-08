@@ -221,18 +221,18 @@ Refer: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-
 OR 
 
 ## Build and push each agent
-gcloud builds submit --tag gcr.io/PROJECT_ID/drafting-agent ./drafting_agent
-gcloud builds submit --tag gcr.io/PROJECT_ID/plagiarism-agent ./plagiarism_agent
-gcloud builds submit --tag gcr.io/PROJECT_ID/seo-agent ./seo_agent
-gcloud builds submit --tag gcr.io/PROJECT_ID/publishing-agent ./publishing_agent
-gcloud builds submit --tag gcr.io/PROJECT_ID/feedback-agent ./feedback_agent
+gcloud builds submit --tag gcr.io/PROJECT_ID/drafting_agent ./drafting_agent
+gcloud builds submit --tag gcr.io/PROJECT_ID/plagiarism_agent ./plagiarism_agent
+gcloud builds submit --tag gcr.io/PROJECT_ID/seo_agent ./seo_agent
+gcloud builds submit --tag gcr.io/PROJECT_ID/publishing_agent ./publishing_agent
+gcloud builds submit --tag gcr.io/PROJECT_ID/feedback_agent ./feedback_agent
 
 ## Deploy each agent
-gcloud run deploy drafting-agent --image gcr.io/PROJECT_ID/drafting-agent --platform managed --allow-unauthenticated
-gcloud run deploy plagiarism-agent --image gcr.io/PROJECT_ID/plagiarism-agent --platform managed --allow-unauthenticated
-gcloud run deploy seo-agent --image gcr.io/PROJECT_ID/seo-agent --platform managed --allow-unauthenticated
-gcloud run deploy publishing-agent --image gcr.io/PROJECT_ID/publishing-agent --platform managed --allow-unauthenticated
-gcloud run deploy feedback-agent --image gcr.io/PROJECT_ID/feedback-agent --platform managed --allow-unauthenticated
+gcloud run deploy drafting_agent --image gcr.io/PROJECT_ID/drafting_agent --platform managed --allow-unauthenticated
+gcloud run deploy plagiarism_agent --image gcr.io/PROJECT_ID/plagiarism_agent --platform managed --allow-unauthenticated
+gcloud run deploy seo_agent --image gcr.io/PROJECT_ID/seo_agent --platform managed --allow-unauthenticated
+gcloud run deploy publishing_agent --image gcr.io/PROJECT_ID/publishing_agent --platform managed --allow-unauthenticated
+gcloud run deploy feedback_agent --image gcr.io/PROJECT_ID/feedback_agent --platform managed --allow-unauthenticated
 
 ## Deploy Orchestrator
 gcloud builds submit --tag gcr.io/PROJECT_ID/orchestrator ./orchestrator
