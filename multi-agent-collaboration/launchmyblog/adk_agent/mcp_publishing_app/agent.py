@@ -2,7 +2,6 @@ import os
 import dotenv
 from mcp_drafting_app import tools
 from google.adk.agents import LlmAgent
-from google.adk import Agent
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from a2a.types import Message, AgentCard
@@ -17,23 +16,6 @@ app = FastAPI()
 PUBLISHING_URL = os.getenv("PUBLISHING_AGENT_URL", "http://localhost:8003/check")
 FEEDBACK_URL = os.getenv("FEEDBACK_AGENT_URL", "http://localhost:8004/check")
 
-publishing_card = AgentCard(
-    name="publishing_agent",
-    description="Checks data for publishing on end blog platform.",
-    defaultInputModes=["text/plain"],
-    defaultOutputModes=["application/json"],
-    skills=[
-        {
-            "id": "publishing_agent",
-            "name": "publishing_agent",
-            "description": "Checks data for publishing on end blog platform.",
-            "tags": ["publishing"]
-        }
-    ],
-    url=PUBLISHING_URL,   # set via env var, e.g. http://localhost:8003/check or Cloud Run URL
-    capabilities={},      # can be empty if no special capabilities
-    version="1.0.0"
-)
 
 feedback_card = AgentCard(
     name="feedback_agent",
@@ -60,8 +42,6 @@ feedback_agent = RemoteA2aAgent(
     agent_card=feedback_card
 )
 
-publishing_agent_api = Agent(agent_card=publishing_card)
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # or restrict to your frontend domain
@@ -76,7 +56,7 @@ async def publish(request: Request):
     text = data.get("optimized_draft", "")
     print("🌐 Publishing Agent: Blog post published.")
     response = {"status": "published", "content": text}
-    publishing_agent_api.send(Message("feedback_agent", response))
+    root_agent.send(Message("feedback_agent", response))
     return response
 
 maps_toolset = tools.get_maps_mcp_toolset()
@@ -84,7 +64,7 @@ bigquery_toolset = tools.get_bigquery_mcp_toolset()
 
 root_agent = LlmAgent(
     model='gemini-2.5-flash-lite',
-    name='root_agent',
+    name='publishing_agent',
     instruction=f"""
                 Help the user answer questions by strategically combining insights from two sources:
                 
@@ -95,5 +75,5 @@ root_agent = LlmAgent(
                     Include a hyperlink to an interactive map in your response where appropriate.
             """,
     tools=[maps_toolset, bigquery_toolset],
-    sub_agents=[publishing_agent_api]
+    sub_agents=[feedback_agent]
 )

@@ -2,7 +2,6 @@ import os
 import dotenv
 from mcp_drafting_app import tools
 from google.adk.agents import LlmAgent
-from google.adk import Agent
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from a2a.types import Message, AgentCard
@@ -15,27 +14,6 @@ PROJECT_ID = os.getenv('GOOGLE_CLOUD_PROJECT', 'project_not_set')
 app = FastAPI()
 
 FEEDBACK_URL = os.getenv("FEEDBACK_AGENT_URL", "http://localhost:8004/check")
-
-feedback_card = AgentCard(
-    name="feedback_agent",
-    description="Checks feedback from content reader.",
-    defaultInputModes=["text/plain"],
-    defaultOutputModes=["application/json"],
-    skills=[
-        {
-            "id": "feedback_agent",
-            "name": "feedback_agent",
-            "description": "Checks feedback from content reader.",
-            "tags": ["feedback"]
-        }
-    ],
-    url=FEEDBACK_URL,     # set via env var, e.g. http://localhost:8004/check or Cloud Run URL
-    capabilities={},      # can be empty if no special capabilities
-    version="1.0.0"
-)
-
-# Agents
-feedback_agent_api = Agent(agent_card=feedback_card)
 
 app.add_middleware(
     CORSMiddleware,
@@ -55,7 +33,7 @@ async def feedback(request: Request):
     print("📊 Feedback Agent: Engagement metrics collected.")
 
     # Optionally send to another agent (e.g., dashboard-agent or orchestrator)
-    feedback_agent_api.send(Message("orchestrator", response))
+    root_agent.send(Message("orchestrator", response))
 
     return response
 
@@ -64,7 +42,7 @@ bigquery_toolset = tools.get_bigquery_mcp_toolset()
 
 root_agent = LlmAgent(
     model='gemini-2.5-flash-lite',
-    name='root_agent',
+    name='feedback_agent',
     instruction=f"""
                 Help the user answer questions by strategically combining insights from two sources:
                 
@@ -75,5 +53,4 @@ root_agent = LlmAgent(
                     Include a hyperlink to an interactive map in your response where appropriate.
             """,
     tools=[maps_toolset, bigquery_toolset],
-    sub_agents=[feedback_agent_api]
 )

@@ -2,7 +2,6 @@ import os
 import dotenv
 from mcp_drafting_app import tools
 from google.adk.agents import LlmAgent
-from google.adk import Agent
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from a2a.types import Message, AgentCard
@@ -35,24 +34,6 @@ seo_card = AgentCard(
     version="1.0.0"
 )
 
-plagiarism_card = AgentCard(
-    name="plagiarism_agent",
-    description="Checks drafts for plagiarism.",
-    defaultInputModes=["text/plain"],
-    defaultOutputModes=["application/json"],
-    skills=[
-        {
-            "id": "plagiarism_agent",
-            "name": "plagiarism_agent",
-            "description": "Checks drafts for plagiarism.",
-            "tags": ["plagiarism"]
-        }
-    ],
-    url=PLAGIARISM_URL,   # use env var for Cloud Run URL
-    capabilities={},      # can be empty if no special capabilities
-    version="1.0.0"
-)
-
 # Agents
 seo_agent = RemoteA2aAgent(
     name="seo_agent",
@@ -60,8 +41,6 @@ seo_agent = RemoteA2aAgent(
     agent_card=seo_card
 
 )
-
-plagiarism_agent_api = Agent(agent_card=plagiarism_card)
 
 app.add_middleware(
     CORSMiddleware,
@@ -77,7 +56,7 @@ async def check(request: Request):
     text = data.get("structured_draft", "")
     report = "Overlap detected with common topic. Proceed allowed."
     response = {"plagiarism_report": report, "draft": text}
-    plagiarism_agent_api.send(Message("seo_agent", response))
+    root_agent.send(Message("seo_agent", response))
     return response
 
 maps_toolset = tools.get_maps_mcp_toolset()
@@ -85,7 +64,7 @@ bigquery_toolset = tools.get_bigquery_mcp_toolset()
 
 root_agent = LlmAgent(
     model='gemini-2.5-flash-lite',
-    name='root_agent',
+    name='plagiarism_agent',
     instruction=f"""
                 Help the user answer questions by strategically combining insights from two sources:
                 
@@ -96,5 +75,5 @@ root_agent = LlmAgent(
                     Include a hyperlink to an interactive map in your response where appropriate.
             """,
     tools=[maps_toolset, bigquery_toolset],
-    sub_agents=[plagiarism_agent_api]
+    sub_agents=[seo_agent]
 )

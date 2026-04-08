@@ -17,24 +17,6 @@ app = FastAPI()
 SEO_URL = os.getenv("SEO_AGENT_URL", "http://localhost:8002/check")
 PUBLISHING_URL = os.getenv("PUBLISHING_AGENT_URL", "http://localhost:8003/check")
 
-seo_card = AgentCard(
-    name="seo_agent",
-    description="Agent that detects keywords and metadata for SEO.",
-    defaultInputModes=["text/plain"],
-    defaultOutputModes=["application/json"],
-    skills=[
-        {
-            "id": "seo_agent",
-            "name": "seo_agent",
-            "description": "Agent that detects keywords and metadata for SEO.",
-            "tags": ["seo"]
-        }
-    ],
-    url=SEO_URL,          # set via env var, e.g. http://localhost:8002/check or Cloud Run URL
-    capabilities={},      # can be empty if no special capabilities
-    version="1.0.0"
-)
-
 publishing_card = AgentCard(
     name="publishing_agent",
     description="Checks data for publishing on end blog platform.",
@@ -60,8 +42,6 @@ publishing_agent = RemoteA2aAgent(
     agent_card=publishing_card
 )
 
-seo_agent_api = Agent(agent_card=seo_card)
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # or restrict to your frontend domain
@@ -76,7 +56,7 @@ async def optimize(request: Request):
     text = data.get("draft", "")
     optimized = text + "\n\n# SEO\nKeywords: blogging, research, learning"
     response = {"optimized_draft": optimized}
-    seo_agent_api.send(Message("publishing_agent", response))
+    root_agent.send(Message("publishing_agent", response))
     return response
 
 maps_toolset = tools.get_maps_mcp_toolset()
@@ -84,7 +64,7 @@ bigquery_toolset = tools.get_bigquery_mcp_toolset()
 
 root_agent = LlmAgent(
     model='gemini-2.5-flash-lite',
-    name='root_agent',
+    name='seo_agent',
     instruction=f"""
                 Help the user answer questions by strategically combining insights from two sources:
                 
@@ -95,5 +75,5 @@ root_agent = LlmAgent(
                     Include a hyperlink to an interactive map in your response where appropriate.
             """,
     tools=[maps_toolset, bigquery_toolset],
-    sub_agents=[seo_agent_api]
+    sub_agents=[publishing_agent]
 )

@@ -2,7 +2,6 @@ import os
 import dotenv
 from mcp_drafting_app import tools
 from google.adk.agents import LlmAgent
-from google.adk import Agent
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from a2a.types import Message, AgentCard
@@ -16,24 +15,6 @@ app = FastAPI()
 
 DRAFTING_URL = os.getenv("DRAFTING_AGENT_URL", "http://localhost:8000/check")
 PLAGIARISM_URL = os.getenv("PLAGIARISM_AGENT_URL", "http://localhost:8001/check")
-
-drafting_card = AgentCard(
-    name="drafting_agent",
-    description="Checks drafts or crate new drafts for new content.",
-    defaultInputModes=["text/plain"],
-    defaultOutputModes=["application/json"],
-    skills=[
-        {
-            "id": "drafting_agent",
-            "name": "drafting_agent",
-            "description": "Checks drafts or crate new drafts for new content.",
-            "tags": ["drafting"]
-        }
-    ],
-    url=DRAFTING_URL,   # use env var for Cloud Run URL
-    capabilities={},      # can be empty if no special capabilities
-    version="1.0.0"
-)
 
 plagiarism_card = AgentCard(
     name="plagiarism_agent",
@@ -60,8 +41,6 @@ plagiarism_agent = RemoteA2aAgent(
     agent_card=plagiarism_card
 )
 
-drafting_agent_api = Agent(agent_card=drafting_card)
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # or restrict to your frontend domain
@@ -76,7 +55,7 @@ async def process(request: Request):
     text = data.get("draft", "")
     structured = f"# Introduction\n{text}\n\n# References\n- Author: Human Researcher"
     response = {"structured_draft": structured}
-    drafting_agent_api.send(Message("plagiarism_agent", response))
+    root_agent.send(Message("plagiarism_agent", response))
     return response
 
 maps_toolset = tools.get_maps_mcp_toolset()
@@ -96,5 +75,5 @@ root_agent = LlmAgent(
                     Include a hyperlink to an interactive map in your response where appropriate.
             """,
     tools=[maps_toolset, bigquery_toolset],
-    sub_agents=[drafting_agent_api]
+    sub_agents=[plagiarism_agent]
 )
