@@ -118,7 +118,7 @@ OPTIONS(
 # 8. Create mcp_feedback_app Tables
 echo "[8/8] Setting up Table:mcp-feedback-data..."
 bq query --use_legacy_sql=false \
-"CREATE OR REPLACE TABLE \`$PROJECT_ID.$DATASET_NAME.mcp-plagiarism-data\` (
+"CREATE OR REPLACE TABLE \`$PROJECT_ID.$DATASET_NAME.mcp-feedback-data\` (
     id INT OPTIONS (description='id'),
     user_id INT OPTIONS (description='title'),
     post_id INT OPTIONS (description='author'),
