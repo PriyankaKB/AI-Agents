@@ -60,7 +60,7 @@ plagiarism_agent = RemoteA2aAgent(
     agent_card=plagiarism_card
 )
 
-drafting_agent = Agent(agent_card=drafting_card)
+drafting_agent_api = Agent(agent_card=drafting_card)
 
 app.add_middleware(
     CORSMiddleware,
@@ -76,7 +76,7 @@ async def process(request: Request):
     text = data.get("draft", "")
     structured = f"# Introduction\n{text}\n\n# References\n- Author: Human Researcher"
     response = {"structured_draft": structured}
-    agent.send(Message("plagiarism_agent", response))
+    drafting_agent_api.send(Message("plagiarism_agent", response))
     return response
 
 maps_toolset = tools.get_maps_mcp_toolset()
@@ -96,5 +96,5 @@ root_agent = LlmAgent(
                     Include a hyperlink to an interactive map in your response where appropriate.
             """,
     tools=[maps_toolset, bigquery_toolset],
-    sub_agents=[drafting_agent]
+    sub_agents=[drafting_agent_api]
 )

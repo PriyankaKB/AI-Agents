@@ -35,7 +35,7 @@ feedback_card = AgentCard(
 )
 
 # Agents
-feedback_agent = Agent(agent_card=feedback_card)
+feedback_agent_api = Agent(agent_card=feedback_card)
 
 app.add_middleware(
     CORSMiddleware,
@@ -55,7 +55,7 @@ async def feedback(request: Request):
     print("📊 Feedback Agent: Engagement metrics collected.")
 
     # Optionally send to another agent (e.g., dashboard-agent or orchestrator)
-    agent.send(Message("orchestrator", response))
+    feedback_agent_api.send(Message("orchestrator", response))
 
     return response
 
@@ -75,5 +75,5 @@ root_agent = LlmAgent(
                     Include a hyperlink to an interactive map in your response where appropriate.
             """,
     tools=[maps_toolset, bigquery_toolset],
-    sub_agents=[feedback_agent]
+    sub_agents=[feedback_agent_api]
 )

@@ -61,7 +61,7 @@ seo_agent = RemoteA2aAgent(
 
 )
 
-plagiarism_agent = Agent(agent_card=plagiarism_card)
+plagiarism_agent_api = Agent(agent_card=plagiarism_card)
 
 app.add_middleware(
     CORSMiddleware,
@@ -77,7 +77,7 @@ async def check(request: Request):
     text = data.get("structured_draft", "")
     report = "Overlap detected with common topic. Proceed allowed."
     response = {"plagiarism_report": report, "draft": text}
-    agent.send(Message("seo_agent", response))
+    plagiarism_agent_api.send(Message("seo_agent", response))
     return response
 
 maps_toolset = tools.get_maps_mcp_toolset()
@@ -96,5 +96,5 @@ root_agent = LlmAgent(
                     Include a hyperlink to an interactive map in your response where appropriate.
             """,
     tools=[maps_toolset, bigquery_toolset],
-    sub_agents=[plagiarism_agent]
+    sub_agents=[plagiarism_agent_api]
 )

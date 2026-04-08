@@ -60,7 +60,7 @@ feedback_agent = RemoteA2aAgent(
     agent_card=feedback_card
 )
 
-publishing_agent = Agent(agent_card=publishing_card)
+publishing_agent_api = Agent(agent_card=publishing_card)
 
 app.add_middleware(
     CORSMiddleware,
@@ -76,7 +76,7 @@ async def publish(request: Request):
     text = data.get("optimized_draft", "")
     print("🌐 Publishing Agent: Blog post published.")
     response = {"status": "published", "content": text}
-    agent.send(Message("feedback_agent", response))
+    publishing_agent_api.send(Message("feedback_agent", response))
     return response
 
 maps_toolset = tools.get_maps_mcp_toolset()
@@ -95,5 +95,5 @@ root_agent = LlmAgent(
                     Include a hyperlink to an interactive map in your response where appropriate.
             """,
     tools=[maps_toolset, bigquery_toolset],
-    sub_agents=[publishing_agent]
+    sub_agents=[publishing_agent_api]
 )

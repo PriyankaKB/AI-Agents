@@ -60,7 +60,7 @@ publishing_agent = RemoteA2aAgent(
     agent_card=publishing_card
 )
 
-seo_agent = Agent(agent_card=seo_card)
+seo_agent_api = Agent(agent_card=seo_card)
 
 app.add_middleware(
     CORSMiddleware,
@@ -76,7 +76,7 @@ async def optimize(request: Request):
     text = data.get("draft", "")
     optimized = text + "\n\n# SEO\nKeywords: blogging, research, learning"
     response = {"optimized_draft": optimized}
-    agent.send(Message("publishing_agent", response))
+    seo_agent_api.send(Message("publishing_agent", response))
     return response
 
 maps_toolset = tools.get_maps_mcp_toolset()
@@ -95,5 +95,5 @@ root_agent = LlmAgent(
                     Include a hyperlink to an interactive map in your response where appropriate.
             """,
     tools=[maps_toolset, bigquery_toolset],
-    sub_agents=[seo_agent]
+    sub_agents=[seo_agent_api]
 )
